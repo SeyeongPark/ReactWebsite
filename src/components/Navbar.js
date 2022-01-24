@@ -1,4 +1,4 @@
-// 'rfce' -> make form
+// 'rfce' -> make js basic form
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 // crl + spcace
@@ -32,7 +32,7 @@ function Navbar() {
         <nav className="navbar">
             <div className='navbar-container'>
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    TRVL <i class="fab fa-typo3"></i>
+                    TRVL <i class="fab fa-typo3"/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -53,8 +53,10 @@ function Navbar() {
                       Products
                     </Link>
                   </li>
-                  <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-link-mobile' onClick={closeMobileMenu}>
+                  
+                  <li>
+                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                      Sign-up
                     </Link>
                   </li>
                 </ul>
@@ -62,7 +64,7 @@ function Navbar() {
             </div>
         </nav>
     </>
-  )
+  );
 }
 
 export default Navbar
