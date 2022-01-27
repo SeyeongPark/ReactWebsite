@@ -70,26 +70,20 @@ function Footer() {
                         TRVL <i class="fab fa typo3"/>
                     </Link>
                 </div>
-                <small class="website-rights">TRVL 2022</small>
+                <small class="website-rights">Seyeong Park 2022</small>
                 <div class="social-icons">
-                    <Link class="social-icon-link facebook"
-                    to = '/'
-                    target = '_blank'
-                    aria-label='Facebook'>
-                        <i class="fab fa-facebook-f"></i>
-                    </Link>
-                    <Link class="social-icon-link instagram"
-                    to = '/'
+                    <a class="social-icon-link instagram"
+                    href = 'https://www.instagram.com/see_yeong/'
                     target = '_blank'
                     aria-label='Instagram'>
                         <i class="fab fa-instagram"></i>
-                    </Link>
-                    <Link class="social-icon-link linkedin"
-                    to = '/'
+                    </a>
+                    <a class="social-icon-link linkedin"
+                    href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
                     target = '_blank'
                     aria-label='Linkedin'>
                         <i class="fab fa-linkedin"></i>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>
