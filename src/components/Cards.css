@@ -67,7 +67,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #f4bb1f;
     box-sizing: border-box;
   }
   
@@ -100,6 +100,16 @@
     line-height: 24px;
   }
   
+  .cards__item__description {
+    color:rgb(131, 131, 131);
+    font-weight: normal;
+    padding-top: 10px;
+    border: lighter;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;

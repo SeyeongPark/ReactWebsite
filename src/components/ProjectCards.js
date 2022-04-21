@@ -9,12 +9,14 @@ function Cards() {
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
-              <CardItem
-                  src="images/img-9.jpg"
-                  text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                  label = "Adventure"
-                  path = "/services"
-                  />
+              <CardItem 
+                  src="images/img-hotaut-homepage.png"
+                  text="HotAuc Auction Website"
+                  description='Payment Method using the PayPal'
+                  label = "Javascript"
+                  url = "https://mighty-mesa-33042.herokuapp.com/"
+                  >
+                  </CardItem>
               <CardItem
                   src="images/img-2.jpg"
                   text="Ravel through the Islands of Bali in a Private Cruise"
