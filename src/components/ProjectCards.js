@@ -1,6 +1,8 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands-svg-icons';
 
 function Cards() {
   return (
@@ -11,10 +13,13 @@ function Cards() {
               <ul class="cards__items">
               <CardItem 
                   src="images/img-hotaut-homepage.png"
-                  text="HotAuc Auction Website"
-                  description='Payment Method using the PayPal'
-                  label = "Javascript"
+                  text="HotAuc Auction"
+                  description=
+                  "A web application where Hot Wheels collectors can buy and sell cars over auctions."
+                  role="Payment Method using the PayPal"
+                  label = "Website"
                   url = "https://mighty-mesa-33042.herokuapp.com/"
+                  github = "https://github.com/hlutony/Comp313-22w-HotAuc"
                   >
                   </CardItem>
               <CardItem

@@ -109,7 +109,22 @@
     font-family:Arial, Helvetica, sans-serif;
   }
 
+  .cards__item__role{
+    color:rgb(38, 118, 210);
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 
+  .icon-tecnology{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    color: black;
+  }
+  
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
