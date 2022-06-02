@@ -6,7 +6,7 @@ import Footer from '../Footer.js';
 export default function Projects(){
     return (
         <>  
-            <h1 className="products">PRODUCTS</h1>
+            <h1 className="projects">PROJECTS</h1>
             <ProjectCards/>
             <Footer/>
         </>

@@ -7,7 +7,7 @@ import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these Programming Projects</h1>
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
@@ -36,27 +36,25 @@ function Cards() {
                   language = "JavaScript, React.js"
                   >
                   </CardItem>
+                  
               </ul>
-              <CardItem
-                  src="images/img-3.jpg"
-                  text="Set sail in the Atlantic Ocean visiting Uncharted Waters"
-                  label = "Mystery"
-                  path = "/services"
-                  />
               <ul class="cards__items">
-              <CardItem
-                  src="images/img-4.jpg"
-                  text="Experience Football onTop of the Himilayan Mountains"
-                  label = "Adventure"
-                  path = "/services"
-                  />
-              <CardItem
-                  src="images/img-8.jpg"
-                  text="Ride through the Sahara Desert on a guided camel tour"
-                  label = "Adrenaline"
-                  path = "/services"
-                  />                
-              </ul>            
+              <CardItem 
+                  src="images/SM-1.png"
+                  text="Super Survey Maker (2020)"
+                  description=
+                  "A web application where users can create their own survey and take other surveys."
+                  role="Web Design"
+                  application = "Website"
+                  coop = "Team"
+                  url = "https://team1c-f2020.herokuapp.com/home"
+                  github = "https://github.com/jodoubleny/team1c"
+                  language = "HTML, CSS"
+                  >
+                </CardItem>
+               
+              </ul>
+                  
           </div>
       </div>
     </div>
