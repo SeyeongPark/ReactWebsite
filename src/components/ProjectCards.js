@@ -11,23 +11,31 @@ function Cards() {
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
-              <CardItem 
+              
+              <CardItem
+                  src="images/TS-1.png"
+                  text = "TimeStamp (2022)"
+                  description = "A web application that employees can record their working time, and managers can access employees' wage and personal information."
+                  language = "Java, MySQL, Spring Boot"
+                  application = "Website"
+                  coop = "Solo"
+                  url = "https://timestamp-app-1.herokuapp.com/"
+                  github = "https://github.com/SeyeongPark/PartTime-TimeStamp"
+                  />
+                
+                <CardItem 
                   src="images/img-hotaut-homepage.png"
-                  text="HotAuc Auction"
+                  text="HotAuc Auction (2022)"
                   description=
                   "A web application where Hot Wheels collectors can buy and sell cars over auctions."
                   role="Payment Method using the PayPal"
-                  label = "Website"
+                  application = "Website"
+                  coop = "Team"
                   url = "https://mighty-mesa-33042.herokuapp.com/"
                   github = "https://github.com/hlutony/Comp313-22w-HotAuc"
+                  language = "JavaScript, React.js"
                   >
                   </CardItem>
-              <CardItem
-                  src="images/img-2.jpg"
-                  text="Ravel through the Islands of Bali in a Private Cruise"
-                  label = "Luxury"
-                  path = "/services"
-                  />
               </ul>
               <CardItem
                   src="images/img-3.jpg"

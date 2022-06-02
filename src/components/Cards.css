@@ -67,10 +67,10 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #f4bb1f;
+    background-color: #1f74f4;
     box-sizing: border-box;
   }
-  
+
   .cards__item__img {
     position: absolute;
     top: 0;
@@ -111,6 +111,14 @@
 
   .cards__item__role{
     color:rgb(38, 118, 210);
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .cards__item__language{
+    color: #4b4b4b;
     font-weight: bold;
     padding-top: 10px;
     font-size: 15px;
