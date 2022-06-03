@@ -24,11 +24,11 @@ function Cards() {
                   />
                 
                 <CardItem 
-                  src="images/img-hotaut-homepage.png"
+                  src="images/HA-1.png"
                   text="HotAuc Auction (2022)"
                   description=
                   "A web application where Hot Wheels collectors can buy and sell cars over auctions."
-                  role="Payment Method using the PayPal"
+                  role="FE (Payment Method using Paypal), BE/FE (Utilize user's payment Info for selling info) "
                   application = "Website"
                   coop = "Team"
                   url = "https://mighty-mesa-33042.herokuapp.com/"
