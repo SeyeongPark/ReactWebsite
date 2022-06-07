@@ -1,6 +1,7 @@
 import React from "react";
-import '../../App.css'
-import './About.css'
+import '../../App.css';
+import './About.css';
+import Photos from "../Photos";
 
 export default function AboutMe(){
     return(
@@ -15,6 +16,8 @@ export default function AboutMe(){
                     <h1>Image here</h1>
                 </div>
             </div>
+
+            <Photos/>
         </body>
     ) 
 }
