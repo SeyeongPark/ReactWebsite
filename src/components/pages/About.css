@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 4rem;
+  }
+  
+  .main div.text-main {
+    flex: 4 1;
+  }
+
+  .main h1 {
+      color: black;
+      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+      padding-bottom: 0.1em;
+      font-size: 80px;
+      text-align: left;
+  }
+
+  .main p {
+    color: rgb(55, 55, 55);
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+  }
+
+  .main em {
+    font-weight: 500;
+    font-style: normal;
+    color:rgb(20, 20, 20);
+    font-size: 27px;
+  }
+
+  
+  
+  .main div.img-main {
+    flex: 1 1 auto;
+  }

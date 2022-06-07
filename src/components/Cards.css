@@ -1,10 +1,16 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    /* background: linear-gradient(to bottom, rgb(206, 175, 142), rgb(255, 255, 255)) ; */
+    background: rgb(18, 18, 18);
   }
   
   h1 {
     text-align: center;
+    color: white;
+  }
+
+  h5 {
+    color: white;
   }
   
   .cards__container {
@@ -28,15 +34,15 @@
   .cards__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 1.2rem 1rem;
     border-radius: 10px;
+    background: rgb(24, 24, 24);
   }
   
   .cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -56,7 +62,7 @@
     animation-duration: 2s;
   }
   
-  /* CardItem - text label : eg. 'Adventure' */
+  /* CardItem - text label : eg. 'Solo/Team' */
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
@@ -76,7 +82,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 10;
     display: block;
     width: 100%;
     max-width: 100%;
@@ -89,19 +95,25 @@
   .cards__item__img:hover {
     transform: scale(1.1);
   }
+
+  .cards__item:hover {
+    background-color: rgb(80, 80, 80);
+    transition: all 0.1s linear;
+  }
+
   
   .cards__item__info {
     padding: 20px 30px 30px;
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
   }
   
   .cards__item__description {
-    color:rgb(131, 131, 131);
+    color:rgb(205, 205, 205);
     font-weight: normal;
     padding-top: 10px;
     border: lighter;
@@ -110,7 +122,7 @@
   }
 
   .cards__item__role{
-    color:rgb(38, 118, 210);
+    color:rgb(86, 164, 254);
     font-weight: bold;
     padding-top: 10px;
     font-size: 15px;
@@ -118,7 +130,7 @@
   }
 
   .cards__item__language{
-    color: #4b4b4b;
+    color: #ffffff;
     font-weight: bold;
     padding-top: 10px;
     font-size: 15px;

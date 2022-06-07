@@ -11,7 +11,7 @@ function CardItem(props) {
                 <a href={props.url}>
                   <img 
                   src={props.src} 
-                  alt="Travel Image" 
+                  alt="Project Image" 
                   className="cards__item__img"/>
                   </a>
               </figure >

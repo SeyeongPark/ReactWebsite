@@ -4,7 +4,7 @@ import './Cards.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands-svg-icons';
 
-function Cards() {
+function ProjectCards() {
   return (
     <div className='cards'>
       <h1>Check out my Programming Projects</h1>
@@ -83,4 +83,4 @@ function Cards() {
   )
 }
 
-export default Cards
+export default ProjectCards
