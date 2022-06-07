@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.js'
 import HeroSection from '../HeroSection.js'
-import Cards from '../Cards'
+import Cards from '../ProjectCards'
 import Footer from '../Footer.js';
 
 function Home() {

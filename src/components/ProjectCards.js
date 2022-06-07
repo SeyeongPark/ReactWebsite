@@ -7,7 +7,7 @@ import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these Programming Projects</h1>
+      <h1>Check out my Programming Projects</h1>
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
@@ -52,7 +52,29 @@ function Cards() {
                   language = "HTML, CSS"
                   >
                 </CardItem>
-               
+                <CardItem 
+                  src="images/SMG-1.png"
+                  text="Slot Machine Game (2020)"
+                  description=
+                  "A game with spinning reels. Users play and gain money depending on their betting and the result of objects with different probabilities.."
+                  application = "Web/Mobile"
+                  coop = "Solo"
+                  url = "https://seyeongpark.github.io/Slot-Machine-Game/"
+                  github = "https://github.com/SeyeongPark/Slot-Machine-Game"
+                  language = "TypeScript, HTML, CSS"
+                  >
+                </CardItem>
+                <CardItem 
+                  src="images/first_personalsite.png"
+                  text="First Personal Site (2020)"
+                  description=
+                  "The first website I deployed described simple information and pictures."
+                  application = "Web"
+                  coop = "Solo"
+                  url = "http://studentweb.cencol.ca/spark235/"
+                  language = "HTML, CSS"
+                  >
+                </CardItem>
               </ul>
                   
           </div>
