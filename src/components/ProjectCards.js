@@ -33,7 +33,7 @@ function ProjectCards() {
                   coop = "Team"
                   url = "https://mighty-mesa-33042.herokuapp.com/"
                   github = "https://github.com/hlutony/Comp313-22w-HotAuc"
-                  language = "JavaScript, React.js"
+                  language = "JavaScript, HTML, CSS, React.js"
                   >
                   </CardItem>
                   
