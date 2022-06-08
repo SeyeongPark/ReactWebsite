@@ -14,7 +14,7 @@ export default function AboutMe(){
                 </div>
 
                 <div class="img-main">
-                    <img class="img-logo" src="../images/avatar.png" />
+                    <img class="img-logo" src="../images/avatar.PNG" />
                 </div>
             </div>
             
