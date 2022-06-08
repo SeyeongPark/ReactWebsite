@@ -33,9 +33,16 @@
     font-size: 27px;
   }
 
+  .container .em-photo {
+    font-weight: 500;
+    color:rgb(44, 72, 155);
+    font-size: 40px;
+    font-style: normal;
+  }
+
   .main .em-education {
     font-weight: 500;
-    color:rgb(69, 69, 71);
+    color:rgb(62, 111, 67);
     font-size: 40px;
   }
 
