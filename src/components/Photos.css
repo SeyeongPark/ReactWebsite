@@ -3,16 +3,31 @@
     margin: 0 auto;
     /* top | horizontal | bottom */
 	padding: 0 2rem 2rem;
+	padding-left: 4rem;
 }
 
-h1 {
-    color: black;
+.container h4 {
+	color: black;
+	font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	padding-bottom: 1em;
+	font-size: 40px;
+	text-align: left;
 }
+
+.container p {
+    color: rgb(55, 55, 55);
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+  }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     margin: -1rem -1rem;
+	padding-top: 3rem;
 }
 
 .gallery-item {

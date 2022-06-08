@@ -2,6 +2,7 @@ import React from "react";
 import '../../App.css';
 import './About.css';
 import Photos from "../Photos";
+import Education from "../Education";
 
 export default function AboutMe(){
     return(
@@ -16,8 +17,9 @@ export default function AboutMe(){
                     <h1>Image here</h1>
                 </div>
             </div>
-
+            
             <Photos/>
+            <Education/>
         </body>
     ) 
 }

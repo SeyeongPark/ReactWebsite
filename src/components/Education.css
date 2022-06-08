@@ -1,0 +1,28 @@
+.container {
+    background: white;
+    margin: 0 auto;
+    /* top | horizontal | bottom */
+	padding: 0 2rem 2rem;
+	padding-left: 4rem;
+    
+}
+
+.main div.text-main {
+    flex: 4 1;
+  }
+
+.main h4 {
+	color: black;
+	font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	padding-bottom: 1em;
+	font-size: 40px;
+	text-align: left;
+}
+ 
+.container div.text-main {
+    flex: 4 1;
+  }
+
+.container div.img-main {
+    flex: 1 1 auto;
+  }

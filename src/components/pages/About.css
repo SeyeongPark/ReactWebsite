@@ -33,8 +33,27 @@
     font-size: 27px;
   }
 
-  
-  
+  .main .em-education {
+    font-weight: 500;
+    color:rgb(69, 69, 71);
+    font-size: 40px;
+  }
+
+  .main  h4 {
+    color: black;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    padding-bottom: 1em;
+    font-size: 40px;
+    text-align: left;
+  }
+
   .main div.img-main {
-    flex: 1 1 auto;
+    flex: 1 1 300px;
+  }
+
+  .img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
