@@ -6,7 +6,7 @@
   }
   
   .main div.text-main {
-    flex: 4 1;
+    flex: 3.4 1;
   }
 
   .main h1 {
@@ -33,6 +33,37 @@
     font-size: 27px;
   }
 
+  .myself {
+    /* Set element horizontally */
+    display: flex;
+    padding: 1.5rem;
+    gap: 1em;
+    padding-top: 5%;
+  }
+
+  
+  .myself div.myself-left, div.myself-mid, div.myself-right {
+    justify-content: center;
+    margin-right: 15px;
+    padding: 1% 8% ;
+    text-align: center;
+    border-style: dashed;
+  }
+
+  .myself div.myself-left:hover, div.myself-mid:hover, div.myself-right:hover{
+    background-color: rgb(219, 219, 219);
+    color: #242424;
+    transition: all 1s ease-out;
+  }
+
+  .myself p {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 25px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    line-height: 40px;
+  }
+
   .container .em-photo {
     font-weight: 500;
     color:rgb(44, 72, 155);
@@ -55,7 +86,7 @@
   }
 
   .main div.img-main {
-    flex: 1 1 300px;
+    flex: 1 1 400px;
   }
 
   .img-logo {
