@@ -6,14 +6,39 @@ export default function SkillSets(){
     return(
         <body>
             <div class="main">
-                <div class="text-main">
-                <h1>My SkillSets</h1>
-                    <p>I'm a <em>web developer</em> in Toronto, Canada. I like making interesting with code. I'm also love a journey together with code.</p>
-                </div>
-
-                <div class="img-main">
-                    <h1>Image here</h1>
-                </div>
+            <h1>My SkillSets</h1>
+            <table>
+                <tbody>
+                <tr>
+                    <th class="title">Frontend</th>
+                    <td class="content">
+                        <ul>
+                            <li>JavaScript, HTML, CSS</li>
+                            <li>React.js</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="title">Backend</th>
+                    <td class="content"> 
+                        <ul>
+                            <li>Java, Python, jQuery, Node.js</li>
+                            <li>Spring Boot, Spring MVC, Spring Data JPA</li>
+                            <li>Visual Studio Code</li>
+                        </ul>  
+                    </td>
+                </tr>
+                <tr>
+                    <th class="title">DevOps</th>
+                    <td class="content">
+                        <ul>
+                            <li>MySQL, MongoDB, GraphQL API</li>
+                            <li>AWS(DynamoDB, RDS, S3, and EC2)</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+                </table>
             </div>
         </body>
     ) 

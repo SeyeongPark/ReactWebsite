@@ -91,6 +91,38 @@
     flex: 1 1 400px;
   }
 
+  .main table {
+    width:70%; 
+
+    margin-right:10%;
+  }
+
+  .main .title {
+    font-size: 30px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .main th, tr {
+    width: 15rem;
+    padding-bottom: 3%;
+    font-weight: 500;
+  }
+
+  .main td {
+    padding: 20px;
+  }
+
+  .main li {
+    padding-top: 1%;
+    line-height: 3rem;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    right: 240px;
+    font-size: 23px;
+    font-weight: 200;
+  }
+
   .img-logo {
     display: block;
     margin-left: auto;
