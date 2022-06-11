@@ -1,4 +1,12 @@
-.main,.main-skill-set {
+h1 {
+  text-align: center;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  padding-bottom: 0.1em;
+  font-size: 80px;
+  text-decoration: underline;
+}
+
+.main{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -9,12 +17,15 @@
     flex: 3.4 1;
   }
 
-  .main h1, .main-skill-set h1 {
-      color: black;
+  div.text-main .site-icon{
+    padding-right: 30%;
+    padding-top: 10%;
+    position: relative;
+  }
+
+  .main-skill-set h1 {
+      color: rgb(255, 255, 255);
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-      padding-bottom: 0.1em;
-      font-size: 80px;
-      text-align: left;
   }
 
   .main p {
@@ -33,37 +44,40 @@
     font-size: 27px;
   }
 
+  .main-skill-set {
+    flex-wrap: wrap;
+    background-color: rgb(17, 25, 45);
+    padding: 4rem;
+  }
+
   .myself {
     /* Set element horizontally */
     display: flex;
-    padding: 1.5rem;
-    gap: 1em;
-    padding-top: 5%;
+    /* padding: 1.5rem; */
+    gap: 7em;
+    padding-top: 6%;
   }
 
-  
-  .myself div.myself-left, div.myself-mid, div.myself-right {
+  .myself i, .myself-right i {
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .myself-right {
     justify-content: center;
     margin-right: 15px;
-    padding: 1% 8% ;
-    text-align: center;
-    border-style: dashed;
-    border-width: 4px;
+    padding-top: 4%;
     background-color: rgb(255, 255, 255);
+    padding-bottom: 5%;
   }
 
-  .myself div.myself-left:hover, div.myself-mid:hover, div.myself-right:hover{
-    background-color: rgb(242, 242, 242);
-    color: #242424;
-    transition: all 1s ease-out;
-  }
-
-  .myself p {
+  .myself p, .myself-right p {
     color: rgb(0, 0, 0);
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     line-height: 40px;
+    padding-top: 5px;
   }
 
   .container .em-photo {
@@ -93,7 +107,8 @@
 
   .main-skill-set table {
     width:70%; 
-    margin-right:10%;
+    margin-left:15%;
+    color: white;
   }
 
   .main-skill-set .title {

@@ -3,28 +3,46 @@ import '../../App.css';
 import './About.css';
 import Photos from "../Photos";
 import Education from "../Education";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function AboutMe(){
     return(
         <body>
+            <h1>About.</h1>
             <div class="main">
                 <div class="text-main">
-                <h1>About.</h1>
-                    <p>I'm a <em>web developer</em> in Toronto, Canada. I like making interesting with code. I'm also love a journey together with code.</p>
+                    <p>I want to be a <em> developer</em> who develope applications to make users to be useful in daily life.</p>
                     <br/>
-                    <p>I can describe my self..</p>
                     <div class="myself">
                         <div class="myself-left">
-                            <p>Creative thinker</p>
+                            <i class="bi bi-geo-alt-fill fa-5x"> Living</i>
+                            <p>Toronto, ON</p>
                         </div>
                         <div class="myself-mid">
-                            <p>Enjoying learning new</p>
-                        </div>
-                        <div class="myself-right">
-                            <p>Focusing on tasks</p>
+                            <i class="bi bi-telephone-fill"> Phone</i>
+                            <p>437)989-5177</p>
                         </div>
                     </div>
-                </div>
+                    <div class="myself-right">
+                            <i class="bi bi-envelope-fill"> Email</i>
+                            <p>seyeong.park.5@gmail.com</p>
+                        </div>
+                    
+                    <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
+                        <i class="bi bi-github fa-3x"/>
+                     </a>
+                    <a className="site-icon" href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'>
+                        <i class="bi bi-linkedin fa-3x"/>
+                    </a>
+              
+
+                    <a class="social-icon-link linkedin"
+                    href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
+                    target = '_blank'
+                    aria-label='Linkedin'>
+                        <i class="fab fa-linkedin"></i>   
+                    </a>
+                    </div>
 
                 <div class="img-main">
                     <img class="img-logo" src="../images/me-3.JPEG" />
@@ -32,7 +50,7 @@ export default function AboutMe(){
             </div>
             
             <Photos/>
-            <Education/>
+            {/* <Education/> */}
         </body>
     ) 
 }

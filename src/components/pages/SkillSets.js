@@ -6,7 +6,7 @@ export default function SkillSets(){
     return(
         <body>
             <div class="main-skill-set">
-            <h1>My SkillSets.</h1>
+            <h1>SkillSets.</h1>
             <table>
                 <tbody>
                 <tr>
@@ -14,6 +14,7 @@ export default function SkillSets(){
                     <td class="content">
                         <ul>
                             <li>JavaScript, HTML, CSS</li>
+                            <li> jQuery</li>
                             <li>React.js</li>
                         </ul>
                     </td>
@@ -22,7 +23,7 @@ export default function SkillSets(){
                     <th class="title">Backend</th>
                     <td class="content"> 
                         <ul>
-                            <li>Java, Python, jQuery, Node.js</li>
+                            <li>Java, Python</li>
                             <li>Spring Boot, Spring MVC, Spring Data JPA</li>
                             <li>Visual Studio Code</li>
                         </ul>  
@@ -34,6 +35,7 @@ export default function SkillSets(){
                         <ul>
                             <li>MySQL, MongoDB, GraphQL API</li>
                             <li>AWS(DynamoDB, RDS, S3, and EC2)</li>
+                            <li>Heroku</li>
                         </ul>
                     </td>
                 </tr>

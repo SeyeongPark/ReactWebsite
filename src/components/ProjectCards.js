@@ -7,7 +7,7 @@ import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands
 function ProjectCards() {
   return (
     <div className='cards'>
-      <h1>Check out my Programming Projects</h1>
+      <h1>Projects</h1>
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
