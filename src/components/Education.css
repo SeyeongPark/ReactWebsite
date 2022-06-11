@@ -1,15 +1,18 @@
 .container {
-    background: white;
+    background: rgb(255, 255, 255);
     margin: 0 auto;
     /* top | horizontal | bottom */
-	padding: 0 2rem 2rem;
+	padding: 0 2rem 0;
 	padding-left: 4rem;
-    
 }
 
 .main div.text-main {
     flex: 4 1;
   }
+
+.main-skill-set {
+  background-color:rgb(255, 255, 255);
+}
 
 .main h4 {
 	color: black;

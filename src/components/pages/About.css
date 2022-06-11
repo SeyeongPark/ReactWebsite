@@ -1,15 +1,15 @@
-.main {
+.main,.main-skill-set {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
     padding: 4rem;
   }
   
-  .main div.text-main {
+  .main, div.text-main {
     flex: 3.4 1;
   }
 
-  .main h1 {
+  .main h1, .main-skill-set h1 {
       color: black;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       padding-bottom: 0.1em;
@@ -79,7 +79,7 @@
     font-size: 40px;
   }
 
-  .main  h4 {
+  .main h4 {
     color: black;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     padding-bottom: 1em;
@@ -91,30 +91,29 @@
     flex: 1 1 400px;
   }
 
-  .main table {
+  .main-skill-set table {
     width:70%; 
-
     margin-right:10%;
   }
 
-  .main .title {
+  .main-skill-set .title {
     font-size: 30px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-weight: 400;
     text-align: left;
   }
 
-  .main th, tr {
+  .main-skill-set th, tr {
     width: 15rem;
     padding-bottom: 3%;
     font-weight: 500;
   }
 
-  .main td {
-    padding: 20px;
+  .main-skill-set td {
+    padding: 15px;
   }
 
-  .main li {
+  .main-skill-set li {
     padding-top: 1%;
     line-height: 3rem;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -130,6 +129,7 @@
     width: 70%;
   }
 
+  /* Mobile version */
   @media (max-width: 800px) {
     .myself {
       /* Set element horizontally */
@@ -150,4 +150,30 @@
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
     }
+
+    .main .title {
+      font-size: 22px;
+      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+      font-weight: 400;
+      text-align: left;
+    }
+
+    .main table {
+      width:auto; 
+    }
+
+    .main li {
+      padding-top: 1%;
+      line-height: 2rem;
+      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+      right: 240px;
+      font-size: 18px;
+      font-weight: 200;
+    }
+
+    .main td {
+      padding-top: 10px;
+    }
+  
+
 }

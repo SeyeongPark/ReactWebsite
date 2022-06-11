@@ -146,6 +146,15 @@
     padding: 20px;
     color: black; 
   }
+
+  .cards{
+    background-image:url('../../public/images/footer-navy.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    object-fit:fill;
+    background-position-y: 30em;
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -162,5 +171,14 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+
+    .cards{
+      background-image:url('../../public/images/footer-navy.png');
+      background-repeat: no-repeat;
+      background-size: auto;
+      width: 100%;
+      object-fit:fill;
+      background-position-y: 100em;
     }
   } 

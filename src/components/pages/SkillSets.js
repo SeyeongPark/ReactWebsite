@@ -5,8 +5,8 @@ import './About.css'
 export default function SkillSets(){
     return(
         <body>
-            <div class="main">
-            <h1>My SkillSets</h1>
+            <div class="main-skill-set">
+            <h1>My SkillSets.</h1>
             <table>
                 <tbody>
                 <tr>

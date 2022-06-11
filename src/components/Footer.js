@@ -16,12 +16,12 @@ function Footer() {
                 </div>
                 <small class="website-rights">Seyeong Park 2022</small>
                 <div class="social-icons">
-                    <a class="social-icon-link instagram"
+                    {/* <a class="social-icon-link instagram"
                     href = 'https://www.instagram.com/see_yeong/'
                     target = '_blank'
                     aria-label='Instagram'>
                         <i class="fab fa-instagram"></i>
-                    </a>
+                    </a> */}
                     <a class="social-icon-link github"
                     href = 'https://github.com/SeyeongPark?tab=repositories'
                     target = '_blank'

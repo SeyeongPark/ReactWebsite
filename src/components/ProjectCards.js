@@ -76,7 +76,6 @@ function ProjectCards() {
                   >
                 </CardItem>
               </ul>
-                  
           </div>
       </div>
     </div>
