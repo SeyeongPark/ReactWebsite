@@ -1,16 +1,35 @@
+body{
+  background-color: rgb(43, 43, 43);
+  margin: 20px;
+}
+
 h1 {
   text-align: center;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  padding-bottom: 0.1em;
-  font-size: 80px;
+  padding-bottom: 0.5em;
+  font-size: 60px;
   text-decoration: underline;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  padding-bottom: 0.1em;
+  font-size: 60px;
+  text-decoration: underline;
+  color: white;
+  padding-top: 7rem;
 }
 
 .main{
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: rgb(43, 43, 43);
     padding: 4rem;
+    width: 80rem;
+    position: relative;
+    margin: 0 auto;
   }
   
   .main, div.text-main {
@@ -21,15 +40,11 @@ h1 {
     padding-right: 30%;
     padding-top: 10%;
     position: relative;
-  }
-
-  .main-skill-set h1 {
-      color: rgb(255, 255, 255);
-      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color: rgb(255, 255, 255);
   }
 
   .main p {
-    color: rgb(55, 55, 55);
+    color: rgb(228, 228, 228);
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-size: 23px;
     font-weight: 300;
@@ -40,14 +55,18 @@ h1 {
   .main em {
     font-weight: 500;
     font-style: normal;
-    color:rgb(20, 20, 20);
+    color:rgb(255, 255, 255);
     font-size: 27px;
   }
 
   .main-skill-set {
     flex-wrap: wrap;
-    background-color: rgb(17, 25, 45);
+    background-color: rgb(43, 43, 43);
     padding: 4rem;
+    position: relative;
+    padding-top: 2rem;
+    width: 80rem;
+    margin: 0 auto;
   }
 
   .myself {
@@ -61,13 +80,13 @@ h1 {
   .myself i, .myself-right i {
     font-style: normal;
     font-size: 20px;
+    color: rgb(255, 255, 255);
   }
 
   .myself-right {
     justify-content: center;
     margin-right: 15px;
     padding-top: 4%;
-    background-color: rgb(255, 255, 255);
     padding-bottom: 5%;
   }
 
@@ -78,11 +97,12 @@ h1 {
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     line-height: 40px;
     padding-top: 5px;
+    color: rgb(255, 255, 255);
   }
 
   .container .em-photo {
     font-weight: 500;
-    color:rgb(44, 72, 155);
+    color:rgb(255, 255, 255);
     font-size: 40px;
     font-style: normal;
   }

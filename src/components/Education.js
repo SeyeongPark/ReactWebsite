@@ -6,7 +6,7 @@ export default function Education() {
         <body>
         <div class="main">
             <div class="img-main">
-                <img class="img-logo" src="../images/centennial-canada-college-logo.png" />
+                <image class="img-logo" src="../images/centennial-canada-college-logo.png" />
             </div>
             <div class="text-main">
                 <h4>I am a graduate of <em class="em-education">Software Engineering</em> (2020-2022) </h4>

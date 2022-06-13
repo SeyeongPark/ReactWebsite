@@ -1,12 +1,12 @@
-.cards #projects {
+.cards  {
     padding: 4rem;
     /* background: linear-gradient(to bottom, rgb(206, 175, 142), rgb(255, 255, 255)) ; */
-    background: rgb(255, 255, 255);
+    background-color: rgb(43, 43, 43);
   }
   
   h1 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   h5 {
@@ -20,6 +20,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    
   }
   
   .cards__wrapper {
@@ -148,13 +149,14 @@
   }
 
   .cards{
-    background-image:url('../../public/images/footer-navy.png');
+    background-image:url('../../public/images/footer-navy-1.png');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
     width: 100%;
     object-fit:fill;
     background-position-y: 30em;
   }
+  
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {

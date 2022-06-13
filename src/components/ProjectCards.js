@@ -1,8 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faHtml5, faCss3, faJs, faGithub, faReact} from '@fortawesome/free-brands-svg-icons';
 
 function ProjectCards() {
   return (

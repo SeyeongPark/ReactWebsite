@@ -1,8 +1,6 @@
 // 'rfce' -> make js basic form
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-// crl + spcace
-import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {

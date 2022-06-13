@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from './Button'
 import './Footer.css';
 import { Link } from 'react-router-dom'
 
@@ -24,13 +23,11 @@ function Footer() {
                     </a> */}
                     <a class="social-icon-link github"
                     href = 'https://github.com/SeyeongPark?tab=repositories'
-                    target = '_blank'
                     aria-label='Instagram'>
                         <i class="fab fa-github"></i>
                     </a>
                     <a class="social-icon-link linkedin"
                     href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
-                    target = '_blank'
                     aria-label='Linkedin'>
                         <i class="fab fa-linkedin"></i>
                     </a>

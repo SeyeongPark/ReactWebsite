@@ -4,9 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home'
 
-import ReactDOM from 'react-dom'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
- 
 
 function App() {
   return (

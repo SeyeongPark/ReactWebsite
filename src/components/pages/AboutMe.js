@@ -2,13 +2,12 @@ import React from "react";
 import '../../App.css';
 import './About.css';
 import Photos from "../Photos";
-import Education from "../Education";
-import 'bootstrap-icons/font/bootstrap-icons.css';
+// import Education from "../Education";
 
 export default function AboutMe(){
     return(
         <body>
-            <h1>About.</h1>
+            <h1 className="title">About.</h1>
             <div class="main">
                 <div class="text-main">
                     <p>I want to be a <em> developer</em> who develope applications to make users to be useful in daily life.</p>
@@ -29,18 +28,13 @@ export default function AboutMe(){
                         </div>
                     
                     <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
-                        <i class="bi bi-github fa-3x"/>
+                        <i class="fab fa-github fa-3x"/>
                      </a>
-                    <a className="site-icon" href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'>
-                        <i class="bi bi-linkedin fa-3x"/>
-                    </a>
-              
 
                     <a class="social-icon-link linkedin"
                     href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
-                    target = '_blank'
                     aria-label='Linkedin'>
-                        <i class="fab fa-linkedin"></i>   
+                        <i class="fab fa-linkedin fa-2x"></i>   
                     </a>
                     </div>
 
