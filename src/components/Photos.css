@@ -66,3 +66,22 @@
 		margin: 0;
 	}
 }
+
+  /* Mobile version */
+  @media (max-width: 800px) {
+	.container {
+		margin: 0 auto;
+		width: 84rem;
+		display:inline;
+	}
+
+	.container h4 {
+		color: rgb(225, 225, 225);
+		font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+		padding-bottom: 1em;
+		font-size: 40px;
+		text-align: left;
+		padding-top: 3em;
+	}
+	
+  }

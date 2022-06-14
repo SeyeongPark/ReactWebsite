@@ -176,11 +176,12 @@
     }
 
     .cards{
-      background-image:url('../../public/images/footer-navy.png');
+      background-image:url('../../public/images/footer-navy-1.png');
       background-repeat: no-repeat;
       background-size: auto;
       width: 100%;
       object-fit:fill;
       background-position-y: 100em;
+      background-position-y: 120em;
     }
   } 
