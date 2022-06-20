@@ -9,10 +9,21 @@ function ProjectCards() {
       <div class="cards__container">
           <div class="cards__wrapper">
               <ul class="cards__items">
-              
+              <CardItem
+                  src="images/Todo-1.png"
+                  text = "TimeStamp (Jun 2022)"
+                  description = "An application to help user stay organized and managed their daily tasks."
+                  detail = "Register | Login | CRUD each todo tasks"
+                  language = "MongoDB, Express, React, Node.js, Netlify, Heroku"
+                  application = "Website"
+                  coop = "Solo"
+                  url = "https://sptech-todo.netlify.app/"
+                  github = "https://github.com/SeyeongPark/todo-mern-backend"
+                  />
+
               <CardItem
                   src="images/TS-1.png"
-                  text = "TimeStamp (2022)"
+                  text = "TimeStamp (Jun 2022)"
                   description = "A web application that employees can record their working time, and managers can access employees' wage and personal information."
                   detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
                   language = "Java, MySQL, Spring Framework, Spring Boot, Spring Security, JPA, Heroku"
