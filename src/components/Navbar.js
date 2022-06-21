@@ -23,6 +23,20 @@ function Navbar() {
     showButton()
   })
 
+  const goToAbout = () =>(
+    window.scrollTo({top: 1000, left: 0, behavior: "smooth"})
+  );
+
+  const goToSkillsets = () =>(
+    window.scrollTo({top: 2350, left: 0, behavior: "smooth"})
+  );
+
+  const goToProject = () =>(
+    window.scrollTo({top: 3200, left: 0, behavior: "smooth"})
+  );
+
+
+
   window.addEventListener('resize', showButton);
 
   return (
@@ -37,17 +51,17 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                   <li className='nav-item'>
-                    <Link to='#aboutme' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='#aboutme' className='nav-links' onClick={closeMobileMenu && goToAbout}>
                       About me 
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#skillsets' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='#skillsets' className='nav-links' onClick={closeMobileMenu && goToSkillsets}>
                       SkillSets
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#projects' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='#projects' className='nav-links' onClick={closeMobileMenu && goToProject}>
                       Projects
                     </Link>
                   </li>

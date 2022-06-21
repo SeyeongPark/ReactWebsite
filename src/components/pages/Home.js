@@ -13,7 +13,9 @@ class Home extends Component {
             <div>
                 <CoverSection/>
                 {/* <ScrollableAnchor id={"aboutme"}> */}
+                <div ref="aboutme">
                    <AboutMe/>
+                </div>
                 {/* </ScrollableAnchor>
        
                 <ScrollableAnchor id={"skillsets"}> */}
