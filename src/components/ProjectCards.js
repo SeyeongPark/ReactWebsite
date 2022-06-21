@@ -35,7 +35,7 @@ function ProjectCards() {
                 
                 <CardItem 
                   src="images/HA-1.png"
-                  text="HotAuc Auction (2022)"
+                  text="HotAuc Auction (Apr 2022)"
                   description=
                   "A web application where Hot Wheels collectors can buy and sell cars over auctions."
                   role="FE (Payment Method using Paypal), BE/FE (Utilize user's payment Info for selling info) "
