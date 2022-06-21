@@ -23,7 +23,7 @@ function ProjectCards() {
 
               <CardItem
                   src="images/TS-1.png"
-                  text = "TimeStamp (Jun 2022)"
+                  text = "Employee Time Tracking (May 2022)"
                   description = "A web application that employees can record their working time, and managers can access employees' wage and personal information."
                   detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
                   language = "Java, MySQL, Spring Framework, Spring Boot, Spring Security, JPA, Heroku"
