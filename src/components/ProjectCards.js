@@ -11,7 +11,7 @@ function ProjectCards() {
               <ul class="cards__items">
               <CardItem
                   src="images/Todo-1.png"
-                  text = "TimeStamp (Jun 2022)"
+                  text = "Todo (Jun 2022)"
                   description = "An application to help user stay organized and managed their daily tasks."
                   detail = "Register | Login | CRUD each todo tasks"
                   language = "MongoDB, Express, React, Node.js, Netlify, Heroku"
