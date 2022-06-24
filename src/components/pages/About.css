@@ -182,6 +182,10 @@ h1 {
       padding-top: 10%;
     }
     
+    .about-text {
+      padding: 5% 10% 1rem 10%;
+    }
+
     .myself {
       /* Set element horizontally */
       display: flex;

@@ -83,5 +83,9 @@
 		text-align: left;
 		padding-top: 3em;
 	}
+
+	.photo-description {
+		padding: 5% 10% 1rem 10%;
+	}
 	
   }

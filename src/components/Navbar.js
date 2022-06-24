@@ -5,23 +5,8 @@ import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if(window.innerWidth <= 960){
-      // when it's mobile mode, the 'sign-up' button will be disappeared
-      setButton(false);
-    } else{
-      setButton(true);
-    }
-  };
-
-  useEffect(()=>{
-    showButton()
-  })
 
   const goToAbout = () =>(
     window.scrollTo({top: 1000, left: 0, behavior: "smooth"})
@@ -35,15 +20,11 @@ function Navbar() {
     window.scrollTo({top: 3200, left: 0, behavior: "smooth"})
   );
 
-
-
-  window.addEventListener('resize', showButton);
-
   return (
     <>
         <nav className="navbar">
             <div className='navbar-container'>
-                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/" className="navbar-logo">
                     SeyeongPark <i class="fab fa-typo3"/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
@@ -51,17 +32,17 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                   <li className='nav-item'>
-                    <Link to='#aboutme' className='nav-links' onClick={closeMobileMenu && goToAbout}>
+                    <Link to='#aboutme' className='nav-links' onClick={goToAbout}>
                       About me 
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#skillsets' className='nav-links' onClick={closeMobileMenu && goToSkillsets}>
+                    <Link to='#skillsets' className='nav-links' onClick={goToSkillsets}>
                       SkillSets
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#projects' className='nav-links' onClick={closeMobileMenu && goToProject}>
+                    <Link to='#projects' className='nav-links' onClick={goToProject}>
                       Projects
                     </Link>
                   </li>

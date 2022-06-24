@@ -11,11 +11,13 @@ export default function AboutMe(){
             <h1 className="title">About.</h1>
             <div class="main">
                 <div class="text-main">
-                    <p>I want to be a <em> developer</em> who develope applications to make users to be useful in daily life.</p>
+                    <div class="about-text">
+                        <p>I want to be a <em> developer</em> who develope applications to make users to be useful in daily life.</p>
+                    </div>
                     <br/>
                     <div class="myself">
                         <div class="myself-left">
-                            <i class="bi bi-geo-alt-fill fa-5x"> Living</i>
+                            <i class="bi bi-geo-alt-fill"> Living</i>
                             <p>Toronto, ON</p>
                         </div>
                         <div class="myself-mid">
