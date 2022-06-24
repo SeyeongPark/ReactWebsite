@@ -165,6 +165,10 @@ h1 {
 
   /* Mobile version */
   @media (max-width: 800px) {
+    body{
+      width: auto;
+    }
+
     .main{
       display:inline;
       width: 84rem;
