@@ -7,6 +7,7 @@ import Photos from "../Photos";
 export default function AboutMe(){
     return(
         <body>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
             <h1 className="title">About.</h1>
             <div class="main">
                 <div class="text-main">
