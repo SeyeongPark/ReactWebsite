@@ -2,7 +2,7 @@
     background: linear-gradient(90deg, rgb(17, 24, 44) 0%, rgb(17, 24, 44) 0%);
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -75,8 +75,12 @@
     display: none;
   }
   
-  /* @media screen and (max-width: 960px) {
-    .NavbarItems {
+  @media screen and (max-width: 960px) {
+    navbar-container {
+      left: 300px;
+    }
+  }
+   /* .NavbarItems {
       position: relative;
     }
   

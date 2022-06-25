@@ -6,7 +6,7 @@ import './Navbar.css';
 function Navbar() {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  // const handleClick = () => setClick(!click);
 
   const goToAbout = () =>(
     window.scrollTo({top: 1000, left: 0, behavior: "smooth"})
@@ -27,9 +27,9 @@ function Navbar() {
                 {/* <Link to="/" className="navbar-logo">
                     SeyeongPark <i class="fab fa-typo3"/>
                 </Link> */}
-                <div className='menu-icon' onClick={handleClick}>
+                {/* <div className='menu-icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
-                </div>
+                </div> */}
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                   <li className='nav-item'>
                     <Link to='#aboutme' className='nav-links' onClick={goToAbout}>
