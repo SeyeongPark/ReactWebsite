@@ -193,7 +193,7 @@ h1 {
     .myself {
       /* Set element horizontally */
       display: flex;
-      gap: 8em;
+      gap: 5em;
       width: 1rem;
       font-size: 18px;
       padding: 5% 1rem 3rem 20%;
