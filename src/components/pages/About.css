@@ -195,6 +195,7 @@ h1 {
       display: flex;
       gap: 8em;
       width: 1rem;
+      font-size: 18px;
       padding: 5% 1rem 3rem 20%;
     }
 
@@ -212,16 +213,20 @@ h1 {
     .myself p{
       color: rgb(255, 255, 255);
       font-weight: 300;
-      font-size: 24px;
+      font-size: 20px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
       padding-top:20px;
     }
 
+    .myself-left i, .myself-mid i, .myself-right i{
+      font-size: 27px;
+    }
+
     .myself-right p{
       color: rgb(255, 255, 255);
       font-weight: 300;
-      font-size: 25px;
+      font-size: 20px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
       padding-top:20px;
