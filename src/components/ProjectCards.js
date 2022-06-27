@@ -6,9 +6,9 @@ function ProjectCards() {
   return (
     <div className='cards'>
       <h1>Projects</h1>
-      <div class="cards__container">
-          <div class="cards__wrapper">
-              <ul class="cards__items">
+      <div className="cards__container">
+          <div className="cards__wrapper">
+              <ul className="cards__items">
               <CardItem
                   src="images/Todo-1.png"
                   text = "Todo (Jun 2022)"
@@ -48,7 +48,7 @@ function ProjectCards() {
                   </CardItem>
                   
               </ul>
-              <ul class="cards__items">
+              <ul className="cards__items">
               <CardItem 
                   src="images/SM-1.png"
                   text="Super Survey Maker (2020)"

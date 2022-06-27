@@ -4,12 +4,12 @@ import "./Education.css";
 export default function Education() {
     return (
         <body>
-        <div class="main">
-            <div class="img-main">
-                <image class="img-logo" src="../images/centennial-canada-college-logo.png" />
+        <div className="main">
+            <div className="img-main">
+                <image className="img-logo" src="../images/centennial-canada-college-logo.png" />
             </div>
-            <div class="text-main">
-                <h4>I am a graduate of <em class="em-education">Software Engineering</em> (2020-2022) </h4>
+            <div className="text-main">
+                <h4>I am a graduate of <em className="em-education">Software Engineering</em> (2020-2022) </h4>
 
                 <p>This education has trained me to be an excellent problem solver; become an effective team leader and work effectively with others. </p>
                 <br></br>

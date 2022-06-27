@@ -9,41 +9,43 @@ export default function AboutMe(){
         <body>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
             <h1 className="title">About.</h1>
-            <div class="main">
-                <div class="text-main">
-                    <div class="about-text">
+            <div className="main">
+                <div className="text-main">
+                    <div className="about-text">
                         <p>I want to be a <em> developer</em> who develope applications to make users to be useful in daily life.</p>
                     </div>
                     <br/>
-                    <div class="myself">
-                        <div class="myself-left">
-                            <i class="bi bi-geo-alt-fill"> Living</i>
+                    <div className="myself">
+                        <div className="myself-left">
+                            <i className="bi bi-geo-alt-fill"> Living</i>
                             <p>Toronto, ON</p>
                         </div>
-                        <div class="myself-mid">
-                            <i class="bi bi-telephone-fill"> Phone</i>
+                        <div className="myself-mid">
+                            <i className="bi bi-telephone-fill"> Phone</i>
                             <p>437)989-5177</p>
                         </div>
                     </div>
-                    <div class="myself-right">
-                            <i class="bi bi-envelope-fill"> Email</i>
+                    <div className="myself-right">
+                            <i className="bi bi-envelope-fill"> Email</i>
                             <p>seyeong.park.5@gmail.com</p>
                         </div>
                     
                     <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
-                        <i class="fab fa-github fa-3x"/>
+                        <i className="fab fa-github fa-3x"/>
                      </a>
 
-                    <a class="social-icon-link linkedin"
+                    <a className="social-icon-link linkedin"
                     href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
                     aria-label='Linkedin'>
-                        <i class="fab fa-linkedin fa-2x"></i>   
+                        <i className="fab fa-linkedin fa-2x"></i>   
                     </a>
                     </div>
 
-                <div class="img-main">
-                    <img class="img-logo" src="../images/me-3.JPEG" />
+                <div className="img-main">
+                    <img className="img-logo" src="../images/me-3.JPEG" />
                 </div>
+
+                <img src="https://ghchart.rshah.org/SeyeongPark"/>
             </div>
             
             <Photos/>

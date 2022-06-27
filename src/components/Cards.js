@@ -6,9 +6,9 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Check out these EPIC Destinations!</h1>
-      <div class="cards__container">
-          <div class="cards__wrapper">
-              <ul class="cards__items">
+      <div className="cards__container">
+          <div className="cards__wrapper">
+              <ul className="cards__items">
               <CardItem
                   src="images/img-9.jpg"
                   text="Explore the hidden waterfall deep inside the Amazon Jungle"
@@ -28,7 +28,7 @@ function Cards() {
                   label = "Mystery"
                   path = "/services"
                   />
-              <ul class="cards__items">
+              <ul className="cards__items">
               <CardItem
                   src="images/img-4.jpg"
                   text="Experience Football onTop of the Himilayan Mountains"

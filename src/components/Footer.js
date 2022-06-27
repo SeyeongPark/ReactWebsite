@@ -6,30 +6,30 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-        <section class="social-media">
-            <div class="social-media-wrap">
-                <div class="footer-logo">
-                    <Link to='/' class="social-logo">
-                        SYTECH <i class="fab fa typo3"/>
+        <section className="social-media">
+            <div className="social-media-wrap">
+                <div className="footer-logo">
+                    <Link to='/' className="social-logo">
+                        SYTECH <i className="fab fa typo3"/>
                     </Link>
                 </div>
-                <small class="website-rights">Seyeong Park 2022</small>
-                <div class="social-icons">
-                    {/* <a class="social-icon-link instagram"
+                <small className="website-rights">Seyeong Park 2022</small>
+                <div className="social-icons">
+                    {/* <a className="social-icon-link instagram"
                     href = 'https://www.instagram.com/see_yeong/'
                     target = '_blank'
                     aria-label='Instagram'>
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                     </a> */}
-                    <a class="social-icon-link github"
+                    <a className="social-icon-link github"
                     href = 'https://github.com/SeyeongPark?tab=repositories'
                     aria-label='Instagram'>
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                     </a>
-                    <a class="social-icon-link linkedin"
+                    <a className="social-icon-link linkedin"
                     href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
                     aria-label='Linkedin'>
-                        <i class="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"></i>
                     </a>
                 </div>
             </div>

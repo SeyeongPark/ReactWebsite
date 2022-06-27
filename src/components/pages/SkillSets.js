@@ -5,13 +5,13 @@ import './About.css'
 export default function SkillSets(){
     return(
         <body>
-            <div class="main-skill-set">
+            <div className="main-skill-set">
             <h1>SkillSets.</h1>
             <table>
                 <tbody>
                 <tr>
-                    <th class="title">Frontend</th>
-                    <td class="content">
+                    <th className="title">Frontend</th>
+                    <td className="content">
                         <ul>
                             <li>JavaScript, HTML, CSS</li>
                             <li> jQuery</li>
@@ -20,8 +20,8 @@ export default function SkillSets(){
                     </td>
                 </tr>
                 <tr>
-                    <th class="title">Backend</th>
-                    <td class="content"> 
+                    <th className="title">Backend</th>
+                    <td className="content"> 
                         <ul>
                             <li>Java, Python</li>
                             <li>Spring Boot, Spring MVC, Spring Data JPA</li>
@@ -30,8 +30,8 @@ export default function SkillSets(){
                     </td>
                 </tr>
                 <tr>
-                    <th class="title">DevOps</th>
-                    <td class="content">
+                    <th className="title">DevOps</th>
+                    <td className="content">
                         <ul>
                             <li>MySQL, MongoDB, GraphQL API</li>
                             <li>AWS(DynamoDB, RDS, S3, and EC2)</li>

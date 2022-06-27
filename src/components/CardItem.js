@@ -4,8 +4,8 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 function CardItem(props) {
   return (
     <>
-      <li class="cards__item">
-          <div class="cards__item__link" >
+      <li className="cards__item">
+          <div className="cards__item__link" >
               <figure className="cards__item__pic-wrap" data-category={props.coop}>
                 <a href={props.url}>
                   <img 
