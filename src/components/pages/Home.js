@@ -5,26 +5,17 @@ import AboutMe from './AboutMe.js';
 import SkillSets from './SkillSets.js';
 import ProjectCards from '../ProjectCards'
 import Footer from '../Footer.js';
-// import ScrollableAnchor from 'react-scrollable-anchor';
+import { ThemeProvider } from 'styled-components';
+
   
 class Home extends Component {
     render(){
         return(
             <div>
                 <CoverSection/>
-                {/* <ScrollableAnchor id={"aboutme"}> */}
-                <div ref="aboutme">
                    <AboutMe/>
-                </div>
-                {/* </ScrollableAnchor>
-       
-                <ScrollableAnchor id={"skillsets"}> */}
-                   <SkillSets/>
-                {/* </ScrollableAnchor>
-                <ScrollableAnchor id={"projects"}> */}
+                    <SkillSets/>
                    <ProjectCards/>
-                {/* </ScrollableAnchor> */}
-   
                 <Footer/>
             </div>
         )

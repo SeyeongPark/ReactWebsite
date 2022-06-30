@@ -268,7 +268,24 @@ h1 {
     }
 
     .main-skill-set td {
-      padding: 30px;
+      padding: 50px;
+    }
+
+     .main-skill-set .title {
+      font-size: 28px;
+    }
+
+    .main-skill-set li {
+      font-size: 18px;
+    }
+
+    .main-skill-set ul {
+      padding-left: 20px;
+    }
+
+    .github-graph {
+      width: 90%;
+      margin : 100px 0 0 30px;
     }
 
 }
