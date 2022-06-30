@@ -3,8 +3,10 @@ import '../../App.css';
 import './About.css';
 import Photos from "../Photos";
 // import Education from "../Education";
+import GitHubCalendar from 'react-github-calendar';
 
 export default function AboutMe(){
+      
     return(
         <body>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
@@ -44,7 +46,6 @@ export default function AboutMe(){
                 <div className="img-main">
                     <img className="img-logo" src="../images/me-3.JPEG" />
                 </div>
-
                 <img src="https://ghchart.rshah.org/SeyeongPark"/>
             </div>
             
