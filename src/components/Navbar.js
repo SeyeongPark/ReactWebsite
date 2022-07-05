@@ -5,46 +5,25 @@ import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-
-  // const handleClick = () => setClick(!click);
-
-  const goToAbout = () =>(
-    window.scrollTo({top: 900, left: 0, behavior: "smooth"})
-  );
-
-  const goToSkillsets = () =>(
-    window.scrollTo({top: 1550, left: 0, behavior: "smooth"})
-  );
-
-  const goToProject = () =>(
-    window.scrollTo({top: 2300, left: 0, behavior: "smooth"})
-  );
-
   return (
     <>
         <nav className="navbar">
             <div className='navbar-container'>
-                {/* <Link to="/" className="navbar-logo">
-                    SeyeongPark <i className="fab fa-typo3"/>
-                </Link> */}
-                {/* <div className='menu-icon' onClick={handleClick}>
-                  <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
-                </div> */}
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                   <li className='nav-item'>
-                    <Link to='#aboutme' className='nav-links' onClick={goToAbout}>
+                    <a href='#aboutme' className='nav-links' >
                       About me 
-                    </Link>
+                    </a>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#skillsets' className='nav-links' onClick={goToSkillsets}>
+                    <a href='#skillsets' className='nav-links' >
                       SkillSets
-                    </Link>
+                    </a>
                   </li>
                   <li className='nav-item'>
-                    <Link to='#projects' className='nav-links' onClick={goToProject}>
+                    <a href='#projects' className='nav-links' >
                       Projects
-                    </Link>
+                    </a>
                   </li>
                 </ul>
             </div>

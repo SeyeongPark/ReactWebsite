@@ -8,6 +8,9 @@ function CoverSection() {
       <img className="cover-img" src="/images/banner-navy-1.png" alt="cover-image"/>
       <h3>Seyeong Park</h3>
       <p>Web Developer</p>
+      <section id="scroll" class="demo">
+        <a href="#aboutme"><span></span>Scroll</a>
+      </section>
     </div>
   )
 }

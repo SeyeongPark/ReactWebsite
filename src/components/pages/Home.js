@@ -13,9 +13,15 @@ class Home extends Component {
         return(
             <div>
                 <CoverSection/>
-                   <AboutMe/>
-                    <SkillSets/>
-                   <ProjectCards/>
+                    <section id="aboutme">
+                        <AboutMe/>
+                    </section>
+                    <section id="skillsets">
+                        <SkillSets/>
+                    </section>
+                    <section id="projects">
+                        <ProjectCards/>
+                    </section>
                 <Footer/>
             </div>
         )

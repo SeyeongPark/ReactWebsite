@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
     background: linear-gradient(90deg, rgb(17, 24, 44) 0%, rgb(17, 24, 44) 0%);
     height: 80px;
