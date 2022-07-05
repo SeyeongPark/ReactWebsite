@@ -6,18 +6,15 @@ h1 {
   text-align: center;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   padding-bottom: 0.5em;
-  font-size: 60px;
+  font-size: 50px;
   text-decoration: underline;
   color: white;
+  position: relative;
+  top: -30px;
 }
 
 .title {
-  text-align: center;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   padding-bottom: 0.1em;
-  font-size: 60px;
-  text-decoration: underline;
-  color: white;
   padding-top: 7rem;
 }
 
@@ -25,8 +22,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(43, 43, 43);
-    padding: 4rem;
-    width: 80rem;
+    padding: 3rem 5rem;
+    width: 67rem;
     position: relative;
     margin: 0 auto;
   }
@@ -42,10 +39,14 @@ h1 {
     color: rgb(255, 255, 255);
   }
 
+  .about-text {
+    width: 130%;
+  }
+
   .main p {
     color: rgb(228, 228, 228);
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: 1.5px;
     line-height: 30px;
@@ -55,17 +56,7 @@ h1 {
     font-weight: 500;
     font-style: normal;
     color:rgb(255, 255, 255);
-    font-size: 27px;
-  }
-
-  .main-skill-set {
-    flex-wrap: wrap;
-    background-color: rgb(43, 43, 43);
-    padding: 4rem;
-    position: relative;
-    padding-top: 8rem;
-    width: 80rem;
-    margin: 0 auto;
+    font-size: 21px;
   }
 
   .myself {
@@ -78,7 +69,7 @@ h1 {
 
   .myself i, .myself-right i {
     font-style: normal;
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(255, 255, 255);
   }
 
@@ -92,7 +83,7 @@ h1 {
   .myself p, .myself-right p {
     color: rgb(0, 0, 0);
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     line-height: 40px;
     padding-top: 5px;
@@ -124,43 +115,59 @@ h1 {
     flex: 1 1 400px;
   }
 
+  .main-skill-set {
+    flex-wrap: wrap;
+    background-color: rgb(43, 43, 43);
+    padding: 4rem;
+    position: relative;
+    padding-top: 8rem;
+    width: 67rem;
+    margin: 0 auto;
+  }
+
   .main-skill-set table {
     width:70%; 
     margin-left:15%;
     color: white;
+    position: relative;
+    top: -1rem;
   }
 
   .main-skill-set .title {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-weight: 400;
     text-align: left;
+    text-decoration: underline;
+    position:relative;
+    top: -50px;
   }
 
   .main-skill-set th, tr {
-    width: 15rem;
+    width: 13rem;
     padding-bottom: 3%;
     font-weight: 500;
   }
 
-  .main-skill-set td {
-    padding: 15px;
-  }
-
   .main-skill-set li {
     padding-top: 1%;
-    line-height: 3rem;
+    line-height: 2.3rem;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     right: 240px;
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 200;
   }
 
-  .img-logo {
+  .img-me {
     display: block;
-    margin-left: auto;
+    margin-left: 9rem;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
+  }
+
+  .github-graph {
+    width: 57%;
+    margin-top: 2rem;
   }
 
   /* Mobile version */
@@ -177,7 +184,7 @@ h1 {
     }
 
     div.text-main .site-icon{
-      padding-left: 30%;
+      padding: 0 20%;
       position: relative;
       color: rgb(255, 255, 255);
     }
@@ -188,6 +195,7 @@ h1 {
     
     .about-text {
       padding: 5% 10% 1rem 10%;
+      width: 100%;
     }
 
     .myself {
@@ -213,27 +221,28 @@ h1 {
     .myself p{
       color: rgb(255, 255, 255);
       font-weight: 300;
-      font-size: 20px;
+      font-size: 18px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
       padding-top:20px;
     }
 
     .myself-left i, .myself-mid i, .myself-right i{
-      font-size: 27px;
+      font-size: 18px;
+      padding: 0 10px;
     }
 
     .myself-right p{
       color: rgb(255, 255, 255);
       font-weight: 300;
-      font-size: 20px;
+      font-size: 18px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
       padding-top:20px;
     }
 
     .main .title {
-      font-size: 22px;
+      font-size: 20px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       font-weight: 400;
       text-align: left;
@@ -283,9 +292,13 @@ h1 {
       padding-left: 20px;
     }
 
-    .github-graph {
-      width: 90%;
-      margin : 100px 0 0 30px;
+    .img-me {
+      width: 60%;
+      margin: 0 6rem 0 6rem;
     }
 
+    .github-graph {
+      width: 90%;
+      padding: 2rem 0 0 10px;
+    }
 }

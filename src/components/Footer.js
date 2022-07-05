@@ -10,17 +10,11 @@ function Footer() {
             <div className="social-media-wrap">
                 <div className="footer-logo">
                     <Link to='/' className="social-logo">
-                        SYTECH <i className="fab fa typo3"/>
+                        SPTECH <i className="fab fa typo3"/>
                     </Link>
                 </div>
-                <small className="website-rights">Seyeong Park 2022</small>
+                <p className="website-rights">Seyeong Park 2022</p>
                 <div className="social-icons">
-                    {/* <a className="social-icon-link instagram"
-                    href = 'https://www.instagram.com/see_yeong/'
-                    target = '_blank'
-                    aria-label='Instagram'>
-                        <i className="fab fa-instagram"></i>
-                    </a> */}
                     <a className="social-icon-link github"
                     href = 'https://github.com/SeyeongPark?tab=repositories'
                     aria-label='Instagram'>

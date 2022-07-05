@@ -69,9 +69,9 @@ export default function AboutMe(){
                         </div>
 
                     <div className="img-main">
-                        <img className="img-logo" src="../images/me-4.png" />
+                        <img className="img-me" src="../images/me-4.png"/>
                     </div>
-                    <img className="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/>
+                    <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/>
                 </div>
                 
                 {/* <Photos/> */}
