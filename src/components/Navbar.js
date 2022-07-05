@@ -9,15 +9,15 @@ function Navbar() {
   // const handleClick = () => setClick(!click);
 
   const goToAbout = () =>(
-    window.scrollTo({top: 1000, left: 0, behavior: "smooth"})
+    window.scrollTo({top: 900, left: 0, behavior: "smooth"})
   );
 
   const goToSkillsets = () =>(
-    window.scrollTo({top: 2350, left: 0, behavior: "smooth"})
+    window.scrollTo({top: 1550, left: 0, behavior: "smooth"})
   );
 
   const goToProject = () =>(
-    window.scrollTo({top: 3200, left: 0, behavior: "smooth"})
+    window.scrollTo({top: 2300, left: 0, behavior: "smooth"})
   );
 
   return (

@@ -76,7 +76,7 @@ export default function AboutMe(){
                     <img className="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/>
                 </div>
                 
-                <Photos/>
+                {/* <Photos/> */}
                 {/* <Education/> */}
             </body>
     ) 
