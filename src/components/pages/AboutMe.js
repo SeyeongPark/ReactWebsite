@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import '../../App.css';
 import './About.css';
-import Photos from "../hidden-pages/Photos";
-// import Education from "../Education";
 import GitHubCalendar from 'react-github-calendar';
 
 export default function AboutMe(){
