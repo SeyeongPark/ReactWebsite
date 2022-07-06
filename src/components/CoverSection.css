@@ -23,7 +23,6 @@
 .cover-container > h3{
     color: rgb(255, 255, 255);
     font-size: 60px;
-    margin-top: -100px;
 }
 
 /* job title */
@@ -53,7 +52,7 @@
 .demo a {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: 42%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
