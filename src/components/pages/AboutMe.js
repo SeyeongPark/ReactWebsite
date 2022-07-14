@@ -53,11 +53,11 @@ export default function AboutMe(){
                             <i className="fab fa-github fa-3x"/>
                         </a>
 
-                        <a className="social-icon-link linkedin"
-                        href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
-                        aria-label='Linkedin'>
-                            <i className="fab fa-linkedin fa-2x"></i>   
-                        </a>
+//                         <a className="social-icon-link linkedin"
+//                         href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
+//                         aria-label='Linkedin'>
+//                             <i className="fab fa-linkedin fa-2x"></i>   
+//                         </a>
 
                         {/* <GitHubCalendar  
                             className="github-graph"
