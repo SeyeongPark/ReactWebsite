@@ -14,7 +14,6 @@ export default function SkillSets(){
                     <td className="content">
                         <ul>
                             <li>JavaScript, HTML, CSS</li>
-                            <li> jQuery</li>
                             <li>React.js</li>
                         </ul>
                     </td>
@@ -33,9 +32,9 @@ export default function SkillSets(){
                     <th className="title">DevOps</th>
                     <td className="content">
                         <ul>
-                            <li>MySQL, MongoDB, GraphQL API</li>
-                            <li>AWS(DynamoDB, RDS, S3, and EC2)</li>
-                            <li>Heroku</li>
+                            <li>MySQL, MongoDB, GraphQL API, REST API</li>
+                            {/* <li>AWS(DynamoDB, RDS, S3, and EC2)</li> */}
+                            <li>Heroku, Firebase</li>
                         </ul>
                     </td>
                 </tr>
