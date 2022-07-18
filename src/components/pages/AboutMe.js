@@ -71,7 +71,7 @@ export default function AboutMe(){
                     <div className="img-main">
                         <img className="img-me" src="../images/me-4.png"/>
                     </div>
-                    {/* <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/> */}
+                    <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/>
                 </div>
                 
                 {/* <Photos/> */}
