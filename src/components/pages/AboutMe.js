@@ -53,25 +53,25 @@ export default function AboutMe(){
                             <i className="fab fa-github fa-3x"/>
                         </a>
 
-//                         <a className="social-icon-link linkedin"
-//                         href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
-//                         aria-label='Linkedin'>
-//                             <i className="fab fa-linkedin fa-2x"></i>   
-//                         </a>
+                         <a className="social-icon-link linkedin"
+                        href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
+                        aria-label='Linkedin'>
+                            <i className="fab fa-linkedin fa-2x"></i>   
+                        </a>
 
-                        {/* <GitHubCalendar  
+                         {/* <GitHubCalendar  
                             className="github-graph"
                             username="SeyeongPark" 
                             transformData={selectLastHalfYear} 
                             hideTotalCount 
                             hideColorLegend
-                            /> */}
+                            /> */} 
                         </div>
 
                     <div className="img-main">
                         <img className="img-me" src="../images/me-4.png"/>
                     </div>
-                    <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/>
+                    {/* <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/> */}
                 </div>
                 
                 {/* <Photos/> */}
