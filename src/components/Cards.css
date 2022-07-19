@@ -1,11 +1,11 @@
 .cards  {
     padding-top: 8rem;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(255, 255, 255);
   }
   
   h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black;
   }
 
   h5 {

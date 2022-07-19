@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
   padding-bottom: 0.5em;
   font-size: 50px;
   text-decoration: underline;
-  color: white;
+  color: black;
   position: relative;
   top: -30px;
 }
@@ -21,7 +21,7 @@ h1 {
 .main{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(255, 255, 255);
     padding: 3rem 5rem;
     width: 67rem;
     position: relative;
@@ -36,7 +36,7 @@ h1 {
     padding-right: 30%;
     padding-top: 10%;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: black;
   }
 
   .about-text {
@@ -44,7 +44,7 @@ h1 {
   }
 
   .main p {
-    color: rgb(228, 228, 228);
+    color: black;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-size: 19px;
     font-weight: 300;
@@ -55,7 +55,7 @@ h1 {
   .main em {
     font-weight: 500;
     font-style: normal;
-    color:rgb(255, 255, 255);
+    color:black;
     font-size: 21px;
   }
 
@@ -70,7 +70,7 @@ h1 {
   .myself i, .myself-right i {
     font-style: normal;
     font-size: 19px;
-    color: rgb(255, 255, 255);
+    color: black;
   }
 
   .myself-right {
@@ -87,12 +87,12 @@ h1 {
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     line-height: 40px;
     padding-top: 5px;
-    color: rgb(255, 255, 255);
+    color: black;
   }
 
   .container .em-photo {
     font-weight: 500;
-    color:rgb(255, 255, 255);
+    color:black;
     font-size: 40px;
     font-style: normal;
   }
@@ -117,7 +117,7 @@ h1 {
 
   .main-skill-set {
     flex-wrap: wrap;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(255, 255, 255);
     padding: 4rem;
     position: relative;
     padding-top: 8rem;
@@ -128,7 +128,7 @@ h1 {
   .main-skill-set table {
     width:70%; 
     margin-left:15%;
-    color: white;
+    color: black;
     position: relative;
     top: -1rem;
   }
