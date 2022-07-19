@@ -1,26 +1,24 @@
-// 'rfce' -> make js basic form
-import React, {useState} from 'react';
+import React from 'react';
 import './Navbar.css';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
   return (
     <>
         <nav className="navbar">
             <div className='navbar-container'>
-                <ul className={click ? 'nav-menu active': 'nav-menu'}>
+                <ul className='navbar-nav'>
                   <li className='nav-item'>
-                    <a href='#aboutme' className='nav-links' >
-                      About me 
+                    <a className='nav-link' href='#aboutme'>
+                      AboutMe
                     </a>
                   </li>
                   <li className='nav-item'>
-                    <a href='#skillsets' className='nav-links' >
+                    <a className='nav-link' href='#skillsets'>
                       SkillSets
                     </a>
                   </li>
                   <li className='nav-item'>
-                    <a href='#projects' className='nav-links' >
+                    <a className='nav-link' href='#projects'>
                       Projects
                     </a>
                   </li>
