@@ -1,26 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import '../../App.css';
 import './About.css';
-import GitHubCalendar from 'react-github-calendar';
 
 export default function AboutMe(){
 
-    const selectLastHalfYear = contributions => {
-        const currentYear = new Date().getFullYear();
-        const currentMonth = new Date().getMonth();
-        const shownMonths = 6;
-      
-        return contributions.filter(day => {
-          const date = new Date(day.date);
-          const monthOfDay = date.getMonth();
-      
-          return (
-            date.getFullYear() === currentYear &&
-            monthOfDay > currentMonth - shownMonths &&
-            monthOfDay <= currentMonth
-          );
-        });
-      }; // Resource: https://grubersjoe.github.io/react-github-calendar/
 
     return(
             <body>
@@ -58,20 +41,11 @@ export default function AboutMe(){
                         aria-label='Linkedin'>
                             <i className="fab fa-linkedin fa-2x"></i>   
                         </a>
-
-                         {/* <GitHubCalendar  
-                            className="github-graph"
-                            username="SeyeongPark" 
-                            transformData={selectLastHalfYear} 
-                            hideTotalCount 
-                            hideColorLegend
-                            /> */} 
                         </div>
 
                     <div className="img-main">
                         <img className="img-me" src="../images/me-4.png"/>
                     </div>
-                    {/* <img class="github-graph" src="https://ghchart.rshah.org/SeyeongPark"/> */}
                 </div>
                 
                 {/* <Photos/> */}

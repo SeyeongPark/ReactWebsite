@@ -5,8 +5,6 @@ import AboutMe from './AboutMe.js';
 import SkillSets from './SkillSets.js';
 import ProjectCards from '../ProjectCards'
 import Footer from '../Footer.js';
-import { ThemeProvider } from 'styled-components';
-
   
 class Home extends Component {
     render(){
