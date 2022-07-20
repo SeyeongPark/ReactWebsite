@@ -15,11 +15,11 @@ class Home extends Component {
                     <section id="aboutme">
                         <AboutMe/>
                     </section>
-                    <section id="skillsets">
-                        <SkillSets/>
-                    </section>
                     <section id="projects">
                         <ProjectCards/>
+                    </section>
+                    <section id="skillsets">
+                        <SkillSets/>
                     </section>
                 <Footer/>
             </div>

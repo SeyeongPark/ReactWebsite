@@ -1,8 +1,10 @@
 import React from "react";
 import './About.css'
+import Footer from '../Footer';
 
 export default function SkillSets(){
     return(
+        <>
         <body>
             <div className="main-skill-set">
             <h1>SkillSets.</h1>
@@ -40,5 +42,8 @@ export default function SkillSets(){
                 </table>
             </div>
         </body>
+       <Footer/>
+       </>
+
     ) 
 }

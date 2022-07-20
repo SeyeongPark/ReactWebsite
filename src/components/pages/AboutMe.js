@@ -1,16 +1,18 @@
 import React from "react";
 import './About.css';
+import '../CoverSection.css';
 
 export default function AboutMe(){
     return(
             <body>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
-                <h1 className="title">About.</h1>
+                {/* <h1 className="title">About.</h1> */}
                 <div className="main">
                     <div className="text-main">
                         <div className="about-text">
-                        <p>
-                        I’m a person <em>open</em> to new technology and new skills and <em>enjoy</em> hearing various ideas. 
+                        <p>Hi, I’m Seyeong! I’m a web developer.<p/>
+                        <br/>
+                        <p>I’m a person <em>open</em> to new technology and new skills and <em>enjoy</em> hearing various ideas. </p>
                         </p>
                         </div>
                         <br/>
@@ -19,15 +21,13 @@ export default function AboutMe(){
                                 <i className="bi bi-geo-alt-fill"> Living</i>
                                 <p>Toronto, ON</p>
                             </div>
-                            {/* <div className="myself-mid">
-                                <i className="bi bi-telephone-fill"> Phone</i>
-                                <p>437)989-5177</p>
-                            </div> */}
-                        </div>
-                        <div className="myself-right">
+                             <div className="myself-right">
                                 <i className="bi bi-envelope-fill"> Email</i>
-                                <p>seyeong.park.5@gmail.com</p>
+                                <p>
+                                <a className="email" href="mailto:seyeong.park.5@gmail.com">seyeong.park.5@gmail.com</a>
+                                </p>
                             </div>
+                        </div>
                         
                         <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
                             <i className="fab fa-github fa-3x"/>
@@ -41,7 +41,13 @@ export default function AboutMe(){
                         </div>
 
                     <div className="img-main">
-                        <img className="img-me" src="../images/me-4.png"/>
+                        {/* <img className="img-me" src="../images/me-4.png"/> */}
+                    </div>
+
+                    <div className='scroll-container'>
+                    <section id="scroll" className="demo">
+                        <a href="#projects"><span></span></a>
+                    </section>
                     </div>
                 </div>
                 

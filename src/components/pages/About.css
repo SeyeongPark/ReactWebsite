@@ -1,16 +1,19 @@
-/* body{
+body{
   background-color: rgba(255, 255, 255, 0);
-} */
+  position: relative;
+  top: 100px;
+}
 
 h1 {
+  padding: 0.9em 0 0.5em 0;
   text-align: center;
   font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  padding-bottom: 0.5em;
+  /* padding-bottom: 0.5em; */
   font-size: 50px;
   text-decoration: underline;
   color: black;
   position: relative;
-  top: -60px;
+  top: -70px;
 }
 
 .title {
@@ -30,7 +33,7 @@ h1 {
   }
   
   .main, div.text-main {
-    flex: 3.4 1;
+    flex: 6 1;
   }
 
   div.text-main .site-icon {
@@ -47,14 +50,18 @@ h1 {
     color: black;
   }
 
+  div.text-main p {
+    line-height: 1.5;
+  }
+
   .about-text {
     width: 130%;
   }
 
   .main p {
     color: black;
-    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    font-size: 19px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
     font-weight: 300;
     letter-spacing: 1.5px;
     line-height: 30px;
@@ -64,33 +71,41 @@ h1 {
     font-weight: 500;
     font-style: normal;
     color:black;
-    font-size: 21px;
   }
 
   .myself {
     /* Set element horizontally */
     display: flex;
     /* padding: 1.5rem; */
-    gap: 7em;
+    gap: 5em;
     padding-top: 6%;
   }
-
+  
   .myself i, .myself-right i {
     font-style: normal;
-    font-size: 19px;
+    font-size: 20px;
     color: black;
+  }
+  
+  .myself-left{
+    width: max-content;
+    /* background-color: black; */
+  }
+
+  .email {
+    text-decoration: none;
   }
 
   .myself-right {
     justify-content: center;
     margin-right: 15px;
-    padding-top: 4%;
     padding-bottom: 5%;
   }
 
-  .myself p, .myself-right p {
+
+  .myself p, .myself-right p .email{
     color: rgb(0, 0, 0);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 18px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     line-height: 40px;
@@ -105,12 +120,6 @@ h1 {
     font-style: normal;
   }
 
-  .main .em-education {
-    font-weight: 500;
-    color:rgb(62, 111, 67);
-    font-size: 40px;
-  }
-
   .main h4 {
     color: black;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -120,16 +129,24 @@ h1 {
   }
 
   .main div.img-main {
-    flex: 1 1 400px;
+    flex: 460px;
+    /* background-color: red; */
   }
 
   .main-skill-set {
     flex-wrap: wrap;
-    padding: 4rem;
-    position: relative;
-    padding-top: 8rem;
+    padding: 0 4rem 10rem 4rem;
     width: 67rem;
     margin: 0 auto;
+    position: relative;
+    top: -0.5em;
+
+    background-image:url('../../../public/images/footer-navy-1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    object-fit:fill;
+    background-position-y: 25em;
   }
 
   .main-skill-set table {
