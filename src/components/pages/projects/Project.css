@@ -1,7 +1,8 @@
 
 .container {
     width: 100%;
-    padding: 5rem 14rem;
+    padding: 8rem 14rem;
+    /* padding-top: ; */
 }
 
 .sum-detail {

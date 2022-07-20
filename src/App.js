@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home'
-import TodoProject from './components/pages/projects/ProjectDetail'
+import Project from './components/pages/projects/ProjectDetail'
 import Footer from './components/Footer';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Navbar/> 
       <Switch>
       <Route path='/' exact component={Home}/>
-      <Route path='/project' exact component={TodoProject}/>
+      <Route path='/project' exact component={Project}/>
       </Switch>
     </Router>
     </>
