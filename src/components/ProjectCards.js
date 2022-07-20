@@ -11,13 +11,14 @@ function ProjectCards() {
               <ul className="cards__items">
               <CardItem
                   src="images/Todo-1.png"
+                  page = "/project/todo"
                   title = "Todo (Jun 2022)"
                   description = "A web application that helps users stay organized and managed by adding their tasks on to lists."
                   detail = "Register | Login | CRUD each todo tasks"
                   skill = "MongoDB, Express, React, Node.js, Netlify, Heroku"
                   application = "Website"
                   coop = "Solo"
-                  url = "https://sptech-todo.netlify.app/"
+                  url = "https://sptech-todo.netlify.app"
                   github = "https://github.com/SeyeongPark/todo-mern-backend"
                   />
 

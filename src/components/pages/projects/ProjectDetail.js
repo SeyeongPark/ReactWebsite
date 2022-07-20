@@ -21,11 +21,11 @@ export default function ProjectDetail(props) {
             <div className='project-link'>
                 <h3>🔗 Link</h3>
                 <h5>
-                Application: {props.url}
+                Application: <a href={props.url}>{props.url}</a>
                 </h5>
                 <br/>
                 <h5>
-                Github: {props.github}
+                Github: <a href={props.github}>{props.github}</a>
                 </h5>
             </div>
             <div className='project-detail'>
