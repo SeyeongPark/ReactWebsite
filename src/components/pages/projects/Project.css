@@ -1,0 +1,36 @@
+
+.container {
+    width: 100%;
+    padding: 5rem 14rem;
+}
+
+.sum-detail {
+    padding: 2rem 0;
+    display: flex;
+    gap: 15rem;
+}
+
+h3 {
+    padding-bottom: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+h5 {
+    color: black;
+    font-size: 18px;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-weight:300;
+    letter-spacing: 1px;
+}
+
+.project-link,
+.project-detail,
+.project-image,
+.project-contribution,
+.project-learned
+{
+    padding: 2rem 0;
+}

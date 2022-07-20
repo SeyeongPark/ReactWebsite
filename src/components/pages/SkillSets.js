@@ -13,8 +13,8 @@ export default function SkillSets(){
                     <th className="title">Frontend</th>
                     <td className="content">
                         <ul>
-                            <li>JavaScript, HTML, CSS</li>
-                            <li>React.js</li>
+                            <li><em>Language</em>: JavaScript, HTML, CSS</li>
+                            <li><em>Framework</em>: React.js, GraphQL API</li>
                         </ul>
                     </td>
                 </tr>
@@ -22,9 +22,8 @@ export default function SkillSets(){
                     <th className="title">Backend</th>
                     <td className="content"> 
                         <ul>
-                            <li>Java, Python</li>
-                            <li>Spring Boot, Spring MVC, Spring Data JPA</li>
-                            <li>Visual Studio Code</li>
+                            <li><em>Language</em>: JSP/Servlet(JAVA), ASP.NET(C#), Python </li>
+                            <li><em>Framework</em>: Node.js(JavaScript), Spring(Java), Express.js</li>
                         </ul>  
                     </td>
                 </tr>
@@ -32,7 +31,7 @@ export default function SkillSets(){
                     <th className="title">DevOps</th>
                     <td className="content">
                         <ul>
-                            <li>MySQL, MongoDB, GraphQL API, REST API</li>
+                            <li>MySQL, MongoDB </li>
                             {/* <li>AWS(DynamoDB, RDS, S3, and EC2)</li> */}
                             <li>Heroku, Firebase</li>
                         </ul>

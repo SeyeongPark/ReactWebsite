@@ -33,7 +33,14 @@ h1 {
     flex: 3.4 1;
   }
 
-  div.text-main .site-icon{
+  div.text-main .site-icon {
+    padding-right: 30%;
+    padding-top: 10%;
+    position: relative;
+    color: black;
+  }
+
+  div.text-main .social-icon-link  {
     padding-right: 30%;
     padding-top: 10%;
     position: relative;

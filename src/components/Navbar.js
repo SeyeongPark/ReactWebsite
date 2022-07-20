@@ -8,17 +8,17 @@ function Navbar() {
             <div className='navbar-container'>
                 <ul className='navbar-nav'>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#aboutme'>
+                    <a className='nav-link' href='/#aboutme'>
                       AboutMe
                     </a>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#skillsets'>
+                    <a className='nav-link' href='/#skillsets'>
                       SkillSets
                     </a>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#projects'>
+                    <a className='nav-link' href='/#projects'>
                       Projects
                     </a>
                   </li>

@@ -3,8 +3,6 @@ import '../../App.css';
 import './About.css';
 
 export default function AboutMe(){
-
-
     return(
             <body>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
@@ -22,10 +20,10 @@ export default function AboutMe(){
                                 <i className="bi bi-geo-alt-fill"> Living</i>
                                 <p>Toronto, ON</p>
                             </div>
-                            <div className="myself-mid">
+                            {/* <div className="myself-mid">
                                 <i className="bi bi-telephone-fill"> Phone</i>
                                 <p>437)989-5177</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="myself-right">
                                 <i className="bi bi-envelope-fill"> Email</i>
@@ -36,7 +34,7 @@ export default function AboutMe(){
                             <i className="fab fa-github fa-3x"/>
                         </a>
 
-                         <a className="social-icon-link linkedin"
+                         <a className="social-icon-link"
                         href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
                         aria-label='Linkedin'>
                             <i className="fab fa-linkedin fa-2x"></i>   
