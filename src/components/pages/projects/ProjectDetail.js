@@ -7,7 +7,7 @@ export default function ProjectDetail(props) {
             <div className='sum-detail'>
                 <div className='sum-team-solo'>
                     <h3>Team</h3>
-                    <h3>{props.coop}</h3>
+                    <h5>{props.coop}</h5>
                 </div>
                 <div className='sum-skills'>
                     <h3>Skills</h3>
@@ -30,24 +30,24 @@ export default function ProjectDetail(props) {
             </div>
             <div className='project-detail'>
                 <h3>🔎 Details</h3>
-                <h5>
-                    {props.description}
-                </h5>
+                <h5 dangerouslySetInnerHTML={{__html: props.description}}/>
             </div>
             <div className='project-image'>
                
             </div>
-            <div className='project-contribution'>
+
+            {props.contribution ? 
+                <div className='project-contribution'>
                 <h3>💻 Contribution</h3>
                 <h5>
                     {props.contribution}
                 </h5>
-            </div>
+            </div>    
+            : ''}
+
             <div className='project-learned'>
                 <h3>📚 What I’ve learned</h3>
-                <h5>
-                    {props.learned}
-                </h5>
+                <h5 dangerouslySetInnerHTML={{__html: props.learned}} />
             </div>
         </div>
     )

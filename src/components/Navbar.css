@@ -6,7 +6,6 @@ html {
     background: rgba(255, 255, 255, 0.537);
     z-index: 1;
     display: flex;
-    justify-content: right;
     position:fixed; 
     width:100%;	
     top:0;	
@@ -14,11 +13,23 @@ html {
   }
   
   .navbar-container {
-    height: 4rem;
     width: max-content;
+    justify-content: right;
+
+    display: flex;
+    position:fixed; 
+    width:105%;	
+  }
+
+  .web-brand {
+    float: left;
+    width: 50px;
+    margin: 0.8rem;
   }
   
   .navbar-nav {
+    justify-items: right;
+
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 2rem;

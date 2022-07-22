@@ -21,10 +21,16 @@ h3 {
 
 h5 {
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
     font-weight:300;
     letter-spacing: 1px;
+    line-height: 2.3rem;
+}
+
+#detail-img {
+    width: 80%;
+    margin: 5% 10%;
 }
 
 .project-link,
