@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
 function CardItem(props) {
   return (
     <>
@@ -18,13 +16,6 @@ function CardItem(props) {
                   <h5 className="cards__item__text">{props.text}</h5>
                   <p className="cards__item__description">{props.description}</p>
                   <br/>
-                  {/* <p className="cards__item__description">{props.detail}</p> */}
-                  {/* <p className="cards__item__role">{props.role}</p> */}
-                  {/* <p className="cards__item__language">{props.language}</p> */}
-
-                  {/* <a href={props.github}>
-                    <FontAwesomeIcon size="3x" icon={faGithub} className="icon-tecnology"/>
-                  </a> */}
               </div>
           </div>
       </li>
