@@ -39,9 +39,7 @@ export default function ProjectDetail(props) {
             {props.contribution ? 
                 <div className='project-contribution'>
                 <h3>💻 Contribution</h3>
-                <h5>
-                    {props.contribution}
-                </h5>
+                <h5 dangerouslySetInnerHTML={{__html: props.contribution}} />
             </div>    
             : ''}
 

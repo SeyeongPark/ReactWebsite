@@ -53,8 +53,9 @@ function ProjectCards() {
               <CardItem 
                   src="images/SM-1.png"
                   title="Super Survey Maker (DEC 2020)"
+                  page="/project/surveymaker"
                   description=
-                  "A web application where users can create their own survey and take other surveys."
+                  "A web application where users can create their own surveys and manage the surveys."
                   role="Web Design"
                   application = "Website"
                   coop = "Team"

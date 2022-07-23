@@ -30,6 +30,18 @@ function App() {
     learned: '- Structuring SQL module and entity for a database using MySQL</br>- Implementing Controller for all features using  HttpMethod</br>- Setting the authentication to log in and permission for a manager page'
   }
 
+  const serveymaker = {
+    title : 'Super Survey Maker',
+    coop : 'Team',
+    skill : 'HTML, CSS',
+    date : 'DECEMBER 2020',
+    url : 'https://team1c-f2020.herokuapp.com',
+    github : 'https://github.com/jodoubleny/team1c', 
+    description : "A web application where users can create their own surveys and manage the surveys.<br/><br/>A logged-in user is able to create a survey based on the survey template. All of the surveys will show on the ‘List of surveys’ page. Through the ‘My Survey’ page, the user can check the user’s survey and edit/delete the survey.<div className='img-container'><img id='detail-img' src='../images/projects/surveymaker/pages.png'/><img id='detail-img' src='../images/projects/surveymaker/detail-sm.png'/></div>",
+    contribution : '- Designed UX/UI  for all web pages as a Web Designer<br/>- Documented an External Design Document (Style Guide) which is included wireframes for each page, colour swatches, mockups, navigation schematic, and so on',
+    learned: '- Understanding styling for HTML and CSS</br>- Communicating with team members and Reporting my worked tasks during the meeting'
+  }
+
   return (
     <>
     <Router>
@@ -37,8 +49,10 @@ function App() {
       <Switch>
       <Route path='/' exact component={Home}/>
       <Route path='/project' exact component={ProjectDetail}/>
-      <Route path='/project/todo' render={(todos) => <ProjectDetail {...todo} />}/>
-      <Route path='/project/timetracker' render={(emps) => <ProjectDetail {...emp} />}/>
+      <Route path='/project/todo' render={() => <ProjectDetail {...todo} />}/>
+      <Route path='/project/timetracker' render={() => <ProjectDetail {...emp} />}/>
+      <Route path='/project/surveymaker' render={() => <ProjectDetail {...serveymaker} />}/>
+
       </Switch>
       <Footer/>
     </Router>
