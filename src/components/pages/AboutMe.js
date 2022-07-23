@@ -50,9 +50,6 @@ export default function AboutMe(){
                     </section>
                     </div>
                 </div>
-                
-                {/* <Photos/> */}
-                {/* <Education/> */}
             </body>
     ) 
 }

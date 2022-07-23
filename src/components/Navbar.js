@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
         <nav className="navbar">
-          <img className="web-brand" src="/images/SP_logo_black.png" alt='sp-logo' href="/"/>  
+        <a href="/"><img className="web-brand" src="/images/SP_logo_black.png" alt='sp-logo'></img></a>  
             <div className='navbar-container'>
                 <ul className='navbar-nav'>
                   <li className='nav-item'>
