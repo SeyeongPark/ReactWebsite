@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translate(0, 0%);
+
 }
 
 .footer-subscription {

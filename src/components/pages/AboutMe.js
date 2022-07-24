@@ -45,9 +45,9 @@ export default function AboutMe(){
                     </div>
 
                     <div className='scroll-container'>
-                    <section id="scroll" className="demo">
-                        <a href="#projects"><span></span></a>
-                    </section>
+                        <section id="scroll" className="demo">
+                            <a href="#projects"><span></span></a>
+                        </section>
                     </div>
                 </div>
             </body>

@@ -89,7 +89,6 @@ h1 {
   
   .myself-left{
     width: max-content;
-    /* background-color: black; */
   }
 
   .email {
@@ -130,7 +129,6 @@ h1 {
 
   .main div.img-main {
     flex: 460px;
-    /* background-color: red; */
   }
 
   .main-skill-set {
@@ -210,7 +208,7 @@ h1 {
     div.text-main .site-icon{
       padding: 0 20%;
       position: relative;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
     }
 
     div.img-main{
@@ -226,9 +224,9 @@ h1 {
       /* Set element horizontally */
       display: flex;
       gap: 5em;
-      width: 1rem;
+      width: 0rem;
       font-size: 18px;
-      padding: 5% 1rem 3rem 20%;
+      padding: 5% 1rem 3rem 10%;
     }
 
     .myself-right {
@@ -238,17 +236,16 @@ h1 {
     .myself i, .myself-right i {
       font-style: normal;
       font-size: 30px;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
     }
   
 
     .myself p{
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       font-weight: 300;
       font-size: 18px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
-      padding-top:20px;
     }
 
     .myself-left i, .myself-mid i, .myself-right i{
@@ -257,7 +254,7 @@ h1 {
     }
 
     .myself-right p{
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       font-weight: 300;
       font-size: 18px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -291,13 +288,14 @@ h1 {
 
     .main-skill-set {
       flex-wrap: wrap;
-      background-color: rgb(43, 43, 43);
       padding: 4rem;
       position: relative;
       padding-top: 2rem;
       width: 80rem;
       margin: 0 auto;
       display:inline;
+
+      background-image: none;
     }
 
     .main-skill-set td {

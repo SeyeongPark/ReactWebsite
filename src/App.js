@@ -52,9 +52,8 @@ function App() {
       <Route path='/project/todo' render={() => <ProjectDetail {...todo} />}/>
       <Route path='/project/timetracker' render={() => <ProjectDetail {...emp} />}/>
       <Route path='/project/surveymaker' render={() => <ProjectDetail {...serveymaker} />}/>
-
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </Router>
     </>
   );

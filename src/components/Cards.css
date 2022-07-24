@@ -149,15 +149,6 @@
     padding: 20px;
     color: black; 
   }
-
-  /* .cards{
-    background-image:url('../../public/images/footer-navy-1.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    object-fit:fill;
-    background-position-y: 30em;
-  } */
   
   
   @media only screen and (min-width: 1200px) {
@@ -178,7 +169,6 @@
     }
 
     .cards{
-      background-image:url('../../public/images/footer-navy-1.png');
       background-repeat: no-repeat;
       background-size: auto;
       width: 100%;
