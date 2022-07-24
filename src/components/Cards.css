@@ -176,4 +176,8 @@
       background-position-y: 100em;
       background-position-y: 120em;
     }
+
+    .cards__item {
+      width: 300px;
+    }
   } 
