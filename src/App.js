@@ -30,6 +30,16 @@ function App() {
     learned: '- Structuring SQL module and entity for a database using MySQL</br>- Implementing Controller for all features using  HttpMethod</br>- Setting the authentication to log in and permission for a manager page'
   }
 
+  const hotauc = {
+    title : 'HotAuc Action',
+    coop : 'Team',
+    skill : 'JavaScript, React.js, MongoDB, HTML, CSS',
+    date : 'APRIL 2022',
+    description : "HotAuc is a web application where Hot Wheels collectors can buy and sell cars over auctions. Moreover, the application allows buyers to pay for a winning bid over Paypal, sellers to check their earnings and administrators to edit information.<div className='img-container'><img id='detail-img' src='../images/projects/hotauc/pages.png'/></div>",
+    contribution : '- Implemented a user interface for results of the payment based on returned data from Payment API (PayPal)<br/>- Showed the users’ selling/ buying information (total earnings, each information of items..), which is stored on MongoDB<br/>- Designed UX/UI of user dashboard frame',
+    learned: "- Understanding React.js and MongoDB (module, schema, api..)  </br>- Communicating with team (8) members and Reporting my worked tasks during the meeting </br>- Reading and understanding other team members's code"
+  }
+
   const serveymaker = {
     title : 'Super Survey Maker',
     coop : 'Team',
@@ -51,9 +61,9 @@ function App() {
       <Route path='/project' exact component={ProjectDetail}/>
       <Route path='/project/todo' render={() => <ProjectDetail {...todo} />}/>
       <Route path='/project/timetracker' render={() => <ProjectDetail {...emp} />}/>
+      <Route path='/project/hotauc' render={() => <ProjectDetail {...hotauc} />}/>
       <Route path='/project/surveymaker' render={() => <ProjectDetail {...serveymaker} />}/>
       </Switch>
-      {/* <Footer/> */}
     </Router>
     </>
   );

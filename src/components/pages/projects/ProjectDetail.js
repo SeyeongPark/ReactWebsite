@@ -19,14 +19,22 @@ export default function ProjectDetail(props) {
                 </div>
             </div>
             <div className='project-link'>
+                { !props.url && !props.github ? '' : 
                 <h3>🔗 Link</h3>
-                <h5>
-                Application: <a href={props.url}>{props.url}</a>
-                </h5>
-                <br/>
-                <h5>
-                Github: <a href={props.github}>{props.github}</a>
-                </h5>
+                }
+                {props.url ? 
+                    <h5>
+                    Application: <a href={props.url}>{props.url}</a>
+                    </h5> : ''
+                }
+                {props.github ? 
+                    <>
+                    <br/>
+                    <h5>
+                    Github: <a href={props.github}>{props.github}</a>
+                    </h5> 
+                    </>: ''
+                }
             </div>
             <div className='project-detail'>
                 <h3>🔎 Details</h3>
