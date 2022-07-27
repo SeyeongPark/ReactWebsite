@@ -1,1 +1,1 @@
-https://portfolio-seyeong.herokuapp.com/
+https://seyeong-park.herokuapp.com
