@@ -171,4 +171,9 @@ html {
       color: rgb(0, 0, 0);
       padding-right: 1rem;
     }
+
+    .navbar .navbar-nav .nav-item::after {
+      background-color: #000000;
+    }
+    
   }

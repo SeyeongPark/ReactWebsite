@@ -9,9 +9,9 @@ function Footer() {
         <section className="social-media">
             <div className="social-media-wrap">
                 <div className="footer-logo">
-                    <Link to='/' className="social-logo">
+                    <a href='/' className="social-logo">
                         SPTECH <i className="fab fa typo3"/>
-                    </Link>
+                    </a>
                 </div>
                 <p className="website-rights">Seyeong Park 2022</p>
                 <div className="social-icons">

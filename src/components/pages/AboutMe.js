@@ -4,15 +4,16 @@ import '../CoverSection.css';
 
 export default function AboutMe(){
     return(
-            <body>
+            <div className="aboutme-container">
+                <section id="aboutme">
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
                 {/* <h1 className="title">About.</h1> */}
                 <div className="main">
                     <div className="text-main">
                         <div className="about-text">
-                        <p>Hi, I’m Seyeong! I’m a web developer.<p/>
+                        <p>Hi, I’m Seyeong! I’m a web developer.</p>
                         <br/>
-                        <p>I’m a person <em>open</em> to new technology and new skills and <em>enjoy</em> hearing various ideas. </p>
+                        <p>I’m a person <em>open</em> to new technology and new skills and <em>enjoy</em> hearing various ideas. 
                         </p>
                         </div>
                         <br/>
@@ -45,11 +46,12 @@ export default function AboutMe(){
                     </div>
 
                     <div className='scroll-container'>
-                        <section id="scroll" className="demo">
+                        <div id="scroll" className="demo">
                             <a href="#projects"><span></span></a>
-                        </section>
+                        </div>
                     </div>
                 </div>
-            </body>
+                </section>
+            </div>
     ) 
 }

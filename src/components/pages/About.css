@@ -1,8 +1,15 @@
-body{
+.aboutme-container{
   background-color: rgba(255, 255, 255, 0);
   position: relative;
-  top: 100px;
+  top: 15rem;
 }
+
+.skill-set-container{
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  top: 7rem;
+}
+
 
 h1 {
   padding: 0.9em 0 0.5em 0;
@@ -148,8 +155,7 @@ h1 {
   }
 
   .main-skill-set table {
-    width:70%; 
-    margin-left:15%;
+    margin:auto;
     color: black;
     position: relative;
     top: -4.5rem;
@@ -194,7 +200,7 @@ h1 {
 
   /* Mobile version */
   @media (max-width: 800px) {
-    body{
+    .skill-set-container{
       width: auto;
     }
 

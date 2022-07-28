@@ -27,7 +27,7 @@ function App() {
     url : 'https://timestamp-app-1.herokuapp.com',
     github : 'https://github.com/SeyeongPark/PartTime-TimeStamp', 
     description : "A web application that records employees' working time stamps from start to finish, and allows the manager to access all information. </br></br>In this application, there are 2 main roles, employee and manager. All workers can record their working hours by clicking the 'record' button and will be calculated their working hours based on starting to finishing work on the main page. On the 'My Employee' page, a manager can check not only all employees' information for working hours, but also update their salary and specific position.<div className='img-container'><img id='detail-img' src='../images/projects/timetracker/tt-detail.png'/></div>",
-    learned: '- Structuring SQL module and entity for a database using MySQL</br>- Implementing Controller for all features using  HttpMethod</br>- Setting the authentication to log in and permission for a manager page'
+    learned: '- Structuring SQL module and entity for a database using MySQL</br>- Implementing Controller for all features integrating with Restful API</br>- Setting the authentication to log in and permission for a manager page'
   }
 
   const hotauc = {
@@ -57,14 +57,15 @@ function App() {
     <Router>
       <Navbar/> 
       <Switch>
-      <Route path='/' exact component={Home}/>
-      <Route path='/project' exact component={ProjectDetail}/>
-      <Route path='/project/todo' render={() => <ProjectDetail {...todo} />}/>
-      <Route path='/project/timetracker' render={() => <ProjectDetail {...emp} />}/>
-      <Route path='/project/hotauc' render={() => <ProjectDetail {...hotauc} />}/>
-      <Route path='/project/surveymaker' render={() => <ProjectDetail {...serveymaker} />}/>
+        <Route path='/' exact component={Home}/>
+        <Route path='/project' exact component={ProjectDetail}/>
+        <Route path='/project/todo' render={() => <ProjectDetail {...todo} />}/>
+        <Route path='/project/timetracker' render={() => <ProjectDetail {...emp} />}/>
+        <Route path='/project/hotauc' render={() => <ProjectDetail {...hotauc} />}/>
+        <Route path='/project/surveymaker' render={() => <ProjectDetail {...serveymaker} />}/>
       </Switch>
     </Router>
+      <Footer/>
     </>
   );
 }

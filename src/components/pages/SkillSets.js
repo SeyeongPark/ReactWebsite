@@ -1,11 +1,11 @@
 import React from "react";
 import './About.css'
-import Footer from '../Footer';
 
 export default function SkillSets(){
     return(
         <>
-        <body>
+        <section id="skillsets">
+            <div className="skill-set-container">
             <div className="main-skill-set">
             <h1>SkillSets.</h1>
             <table>
@@ -41,9 +41,9 @@ export default function SkillSets(){
                 </tbody>
                 </table>
             </div>
-        </body>
-       <Footer/>
-       </>
+       </div>
+            </section>
+            </>
 
     ) 
 }

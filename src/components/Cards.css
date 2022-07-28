@@ -150,6 +150,12 @@
     color: black; 
   }
   
+  @media (max-width: 800px) { 
+    .cards  {
+      padding-top: 15rem;
+      background-color: rgb(255, 255, 255);
+    }
+  }
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {

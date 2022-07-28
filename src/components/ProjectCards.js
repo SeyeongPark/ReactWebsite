@@ -5,7 +5,7 @@ import './Cards.css'
 function ProjectCards() {
   return (
     <div className='cards'>
-      {/* <h1>Projects</h1> */}
+      <section id="projects">
       <div className="cards__container">
           <div className="cards__wrapper">
               <ul className="cards__items">
@@ -90,6 +90,7 @@ function ProjectCards() {
                 </ul>
           </div>
       </div>
+      </section>
     </div>
   )
 }
