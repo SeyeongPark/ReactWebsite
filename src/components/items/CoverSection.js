@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import './CoverSection.css';
+import './CardItem.css';
 
 function CoverSection() {
   const [button, setButton] = useState(true);
