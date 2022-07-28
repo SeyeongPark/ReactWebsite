@@ -42,7 +42,7 @@ export default function AboutMe(){
                         </div>
 
                     <div className="img-main">
-                        <img className="img-me" src="../images/me-5.png"/>
+                        <img className="img-me" src="../images/me-5.webp"/>
                     </div>
 
                     <div className='scroll-container'>

@@ -10,7 +10,7 @@ function ProjectCards() {
           <div className="cards__wrapper">
               <ul className="cards__items">
               <CardItem
-                  src="images/Todo-1.png"
+                  src="images/Todo-1.webp"
                   page = "/project/todo"
                   title = "Todo (Jun 2022)"
                   description = "A web application that helps users stay organized and managed by adding their tasks on to lists."
@@ -23,7 +23,7 @@ function ProjectCards() {
                   />
 
               <CardItem
-                  src="images/TS-3.png"
+                  src="images/TS-3.webp"
                   page = "/project/timetracker"
                   title = "Employee Time Tracker (May 2022)"
                   description = "A web application that records employees working time stamps from start to finish, and allows the manager to access all information."
@@ -39,7 +39,7 @@ function ProjectCards() {
               </ul>
               <ul className="cards__items">
                 <CardItem 
-                  src="images/HA-1.png"
+                  src="images/HA-1.webp"
                   title="HotAuc Auction (Apr 2022)"
                   page = "/project/hotauc"
                   description=
@@ -52,7 +52,7 @@ function ProjectCards() {
                   skill = "JavaScript, HTML, CSS, React.js"
                   />
               <CardItem 
-                  src="images/SM-1.png"
+                  src="images/SM-1.webp"
                   title="Super Survey Maker (DEC 2020)"
                   page="/project/surveymaker"
                   description=

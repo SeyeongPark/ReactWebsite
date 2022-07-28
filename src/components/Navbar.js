@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
         <nav className="navbar">
-        <a href="/"><img className="web-brand" src="/images/SP_logo_black.png" alt='sp-logo' onClick={closeMobileMenu}></img></a>  
+        <a href="/"><img className="web-brand" src="/images/SP_logo_black.webp" alt='sp-logo' onClick={closeMobileMenu}></img></a>  
             <div className='navbar-container'>
                 <div className='menu-icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
