@@ -65,29 +65,6 @@ function ProjectCards() {
                   skill = "HTML, CSS"
                   />
               </ul>
-              <ul className="cards__items">
-                {/* <CardItem 
-                  src="images/SMG-1.png"
-                  title="Slot Machine Game (2020)"
-                  description=
-                  "A game with spinning reels. Users play and gain money depending on their betting and the result of objects with different probabilities.."
-                  application = "Web/Mobile"
-                  coop = "Solo"
-                  url = "https://seyeongpark.github.io/Slot-Machine-Game/"
-                  github = "https://github.com/SeyeongPark/Slot-Machine-Game"
-                  skill = "TypeScript, HTML, CSS"
-                  /> */}
-                {/* <CardItem 
-                  src="images/first_personalsite.png"
-                  title="First Personal Site (2020)"
-                  description=
-                  "The first website I deployed described simple information and pictures."
-                  application = "Web"
-                  coop = "Solo"
-                  url = "http://studentweb.cencol.ca/spark235/"
-                  skill = "HTML, CSS"
-                  /> */}
-                </ul>
           </div>
       </div>
       </section>
