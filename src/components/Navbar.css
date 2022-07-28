@@ -25,6 +25,7 @@ html {
     float: left;
     width: 50px;
     margin: 0.8rem 3.5rem;
+    height: auto;
   }
   
   .navbar-nav {
