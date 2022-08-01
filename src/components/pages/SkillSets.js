@@ -6,7 +6,7 @@ export default function SkillSets(){
         <>
         <section id="skillsets">
             <div className="skill-set-container">
-            <div className="main-skill-set">
+            <div loading='lazy'  className="main-skill-set">
             <h1>SkillSets.</h1>
             <table>
                 <tbody>

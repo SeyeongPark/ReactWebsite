@@ -3,7 +3,7 @@ import './ProjectDetail.css'
 export default function ProjectDetail(props) {
     return (
         <>
-        <div className="banner">
+        <div loading='lazy' className="banner">
                 <h1 className="title">{props.title}</h1>
         </div>
         <div className="container">
