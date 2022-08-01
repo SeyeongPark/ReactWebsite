@@ -2,13 +2,9 @@ import React, { Suspense, lazy } from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-// import Home from './components/pages/Home'
-// import ProjectDetail from './components/pages/projects/ProjectDetail'
-// import Footer from './components/Footer';
-
-const Home = lazy(() => import('./components/pages/Home'));
-const ProjectDetail = lazy(() => import('./components/pages/projects/ProjectDetail'));
-const Footer = lazy(() => import('./components/Footer'));
+import Home from './components/pages/Home'
+import ProjectDetail from './components/pages/projects/ProjectDetail'
+import Footer from './components/Footer';
 
 function App() {
   const projectDetail = {
@@ -58,7 +54,6 @@ function App() {
   return (
     <>
     <Router>
-    {/* <Suspense fallback={<div>Loading...</div>}> */}
       <Navbar/> 
       <Switch>
         <Route path='/' exact component={Home}/>
@@ -67,7 +62,6 @@ function App() {
         <Route path='/project/hotauc' render={() => <ProjectDetail {...projectDetail.hotauc} />}/>
         <Route path='/project/surveymaker' render={() => <ProjectDetail {...projectDetail.serveymaker} />}/>
       </Switch>
-      {/* </Suspense> */}
     </Router>
       <Footer/>
     </>
