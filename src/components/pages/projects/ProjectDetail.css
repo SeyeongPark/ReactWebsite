@@ -1,15 +1,19 @@
 .banner{
-    background-image: url('../../../../public/images/Todo-1.webp');
+    background-image: url('../../../../public/images/project-banner.webp');
     height: 40vh;
     position: relative;
     top: 5rem;
+
+    background-size:cover;
+    width: 100%;
+    object-fit:fill;
+    background-position-y: 25em;
 }
 
 .title {
     position: relative;
     top: 0rem;
     color: rgb(0, 0, 0);
-    z-index: -1;
 }
 
 .container {
