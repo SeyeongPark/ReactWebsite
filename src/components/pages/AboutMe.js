@@ -16,11 +16,11 @@ export const AboutMe = () => {
                         <br/>
                         <div className="myself">
                             <div className="myself-left">
-                           <img src="../images/geo-alt-fill.svg" alt=""/> Living
+                           <img className="icon" loading='lazy' src="../images/geo-alt-fill.svg" alt=""/> Living
                                 <p>Toronto, ON</p>
                             </div>
                              <div className="myself-right">
-                             <img src="../images/envelope-fill.svg" alt=""/> Email
+                             <img className="icon" loading='lazy' src="../images/envelope-fill.svg" alt=""/> Email
                                 <p>
                                 <a className="email" href="mailto:seyeong.park.5@gmail.com">seyeong.park.5@gmail.com</a>
                                 </p>

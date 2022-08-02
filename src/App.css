@@ -310,6 +310,11 @@ html {
     text-decoration: none;
   }
 
+  .icon {
+    width:min-content;
+    height:min-content;
+  }
+
   .myself p, .myself-right p .email{
     font-size: 18px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -378,8 +383,19 @@ html {
   }
 
   @media (max-width: 800px) {
+    .aboutme-container,
+    .skill-set-container{
+    background: none;
+    padding-bottom: 10em;
+    padding-left: 20px;
+  }
+
     .skill-set-container{
       width: auto;
+    }
+
+    .main-skill-set li {
+      padding-top: 20%;
     }
 
     .main{
