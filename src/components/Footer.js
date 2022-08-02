@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Footer() {
+export const Footer = () => {
   return (
     <div className='footer-container'>
         <section className="social-media">
@@ -29,5 +29,3 @@ function Footer() {
     </div>
   )
 }
-
-export default Footer

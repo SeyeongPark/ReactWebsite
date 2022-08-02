@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-function Navbar() {
+export const Navbar = () => {
   const [button, setButton] = useState(true);
   const [click, setClick] = useState(false);
 
@@ -52,5 +52,3 @@ function Navbar() {
     </>
   );
 }
-
-export default Navbar

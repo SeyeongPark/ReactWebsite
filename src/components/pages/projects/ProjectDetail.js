@@ -1,4 +1,4 @@
-export default function ProjectDetail(props) {
+export const ProjectDetail = (props) => {
     return (
         <>
         <div loading='lazy' className="banner">
