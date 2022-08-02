@@ -3,7 +3,7 @@ import React from "react";
 export default function SkillSets(){
     return(
         <>
-        <section id="skillsets">
+        <section className="skillsets-section" id="skillsets">
             <div className="skill-set-container">
             <div loading='lazy'  className="main-skill-set">
             <h1>SkillSets.</h1>

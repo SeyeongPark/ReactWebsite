@@ -4,7 +4,7 @@ import CardItem from './items/CardItem'
 function ProjectCards() {
   return (
     <div className='cards'>
-      <section id="projects">
+      <section className="projects-section" id="projects">
       <div className="cards__container">
           <div className="cards__wrapper">
               <ul className="cards__items">

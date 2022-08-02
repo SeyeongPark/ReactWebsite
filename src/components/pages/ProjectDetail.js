@@ -1,8 +1,8 @@
 export const ProjectDetail = (props) => {
     return (
         <>
-        <div loading='lazy' className="banner">
-                <h1 className="title">{props.title}</h1>
+        <div loading='lazy' className="project-banner">
+            <h1 className="title">{props.title}</h1>
         </div>
         <div className="container">
             <div className='sum-detail'>
