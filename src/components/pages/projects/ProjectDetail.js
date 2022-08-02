@@ -1,5 +1,3 @@
-import './ProjectDetail.css'
-
 export default function ProjectDetail(props) {
     return (
         <>
