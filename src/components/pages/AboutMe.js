@@ -1,6 +1,4 @@
 import React from "react";
-import './About.css';
-import '../items/CoverSection.css';
 
 export default function AboutMe(){
     return(

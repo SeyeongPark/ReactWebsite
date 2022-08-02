@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import './Navbar.css';
 
 function Navbar() {
   const [button, setButton] = useState(true);

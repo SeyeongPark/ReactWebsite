@@ -1,6 +1,5 @@
 import React from 'react'
 import CardItem from './items/CardItem'
-import './items/Cards.css'
 
 function ProjectCards() {
   return (
