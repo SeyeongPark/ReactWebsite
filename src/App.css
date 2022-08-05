@@ -255,7 +255,7 @@ html {
 
   div.text-main .site-icon {
     padding-right: 30%;
-    padding-top: 10%;
+    padding-top: 20%;
     position: relative;
     color: black;
   }
@@ -311,9 +311,17 @@ html {
   }
 
   .icon {
+    padding-top: 2rem;
     width:min-content;
     height:min-content;
   }
+
+  .github-icon,.linkedin-icon {
+    padding-top: 2rem;
+    width:2rem;
+    margin-right: 1.4rem;
+  }
+
 
   .myself p, .myself-right p .email{
     font-size: 18px;

@@ -28,13 +28,13 @@ export const AboutMe = () => {
                         </div>
                         
                         <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
-                            <i className="fab fa-github fa-3x"/>
+                        <img className="github-icon" loading='lazy' src="../images/github.svg" alt=""/>
                         </a>
 
                          <a className="social-icon-link"
                         href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
                         aria-label='Linkedin'>
-                            <i className="fab fa-linkedin fa-2x"></i>   
+                             <img className="linkedin-icon" loading='lazy' src="../images/linkedin.svg" alt=""/>   
                         </a>
                         </div>
 
