@@ -10,7 +10,7 @@ export const AboutMe = () => {
                         <div className="about-text">
                         <h1>Hi! I’m Seyeong</h1>
                         <br/>
-                        <p>I’m a person <em>open</em> to new technology and new skills and <em>enjoy</em> hearing various ideas. 
+                        <p>I’m a person <b>open</b> to new technology and new skills and <b>enjoy</b> hearing various ideas. 
                         </p>
                         </div>
                         <br/>

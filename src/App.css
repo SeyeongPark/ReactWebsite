@@ -204,7 +204,7 @@ html {
   top: 15rem;
 
   background-image: url('../public/images/project-banner.webp');
-  background-size:contain;
+  background-size:cover;
   width: 100%;
   object-fit:cover;
 }
@@ -801,13 +801,8 @@ h5 {
 
 
 @media only screen and (min-width: 1200px) {
-  .cards  {
-    padding-top: 15rem;
-    background-color: rgb(255, 255, 255);
-  }
-
   .content__blog__container {
-    width: 84%;
+    width: 90%;
   }
 
   .cards__items {
@@ -817,8 +812,6 @@ h5 {
   .cards__item {
     margin-bottom: 2rem;
   }
-
-  
 }
 
 @media only screen and (max-width: 820px) {
@@ -831,7 +824,7 @@ h5 {
   }
 
   .cards__item {
-    width: 300px;
+    width: 90%;
   }
 } 
 
@@ -847,36 +840,6 @@ h5 {
   transform: translate(0, 0%);
 }
 
-.footer-subscription {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 24px;
-  padding: 24px;
-  color: #fff;
-}
-
-.footer-subscription > p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.footer-subscription-heading {
-  margin-bottom: 24px;
-  font-size: 24px;
-}
-
-.footer-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
-}
-
-.footer-links {
-  width: 100%;
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-}
 
 /* Social Icons */
 .social-icon-link {
@@ -894,15 +857,7 @@ h5 {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  max-width: 1000px;
   margin: 40px auto 0 auto;
-}
-
-.social-icons{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
 }
 
 .social-logo {
