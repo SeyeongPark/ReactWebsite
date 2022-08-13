@@ -34,7 +34,7 @@ html {
   
   .navbar-container {
     width: max-content;
-    justify-content: right;
+    justify-content: center;
 
     display: flex;
     position:fixed; 
