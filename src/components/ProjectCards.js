@@ -1,7 +1,9 @@
 import React from 'react'
 import CardItem from './items/CardItem'
+import AOS from 'aos';
 
 function ProjectCards() {
+  AOS.refreshHard();
   return (
     <div className='cards'>
       <section className="projects-section" id="projects">

@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 
 export const AboutMe = () => {
-
     return(
+        <>
             <div className="aboutme-container">
                 <section className="aboutme" id="aboutme">
                 <div className="main">
                     <div className="text-main">
                         <div className="about-text">
+                        <div data-aos="fade-up" 
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-sine"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                        >
                         <h1>Hi! I’m Seyeong</h1>
                         <br/>
                         <p>I’m a person <b>open</b> to new technology and new skills and <b>enjoy</b> hearing various ideas. 
                         </p>
+                        </div>
                         </div>
                         <br/>
                         <div className="myself">
@@ -39,7 +49,9 @@ export const AboutMe = () => {
                         </div>
 
                     <div className="img-main">
+                        <div className="fade-in-img">
                         <img className="img-me" src="../images/me-5.png"/>
+                        </div>
                     </div>
 
                     <div className='scroll-container'>
@@ -50,5 +62,6 @@ export const AboutMe = () => {
                 </div>
                 </section>
             </div>
+            </>
     ) 
 }
