@@ -9,23 +9,23 @@ export const AboutMe = () => {
                 <div className="main">
                     <div className="text-main">
                         <div className="about-text">
-                        <div data-aos="fade-up" 
-                            data-aos-offset="200"
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-sine"
-                            data-aos-mirror="true"
-                            data-aos-once="false"
-                        >
-                        <h1>Hi! I’m Seyeong</h1>
-                        <br/>
-                        <p>I’m a person <b>open</b> to new technology and new skills and <b>enjoy</b> hearing various ideas. 
-                        </p>
-                        </div>
+                            <div data-aos="fade-up" 
+                                data-aos-offset="200"
+                                data-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+                            >
+                                <h1>Hi! I’m Seyeong</h1>
+                                <br/>
+                                <p>I’m a person <b>open</b> to new technology and new skills and <b>enjoy</b> hearing various ideas. 
+                                </p>
+                            </div>
                         </div>
                         <br/>
                         <div className="myself">
-                            <div className="myself-left">
+                        <div className="myself-left">
                            <img className="icon" loading='lazy' src="../images/geo-alt-fill.svg" alt=""/> Living
                                 <p>Toronto, ON</p>
                             </div>
@@ -46,7 +46,7 @@ export const AboutMe = () => {
                         aria-label='Linkedin'>
                              <img className="linkedin-icon" loading='lazy' src="../images/linkedin.svg" alt=""/>   
                         </a>
-                        </div>
+                    </div>
 
                     <div className="img-main">
                         <div className="fade-in-img">

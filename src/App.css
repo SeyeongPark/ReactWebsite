@@ -214,7 +214,7 @@ html {
 }
 
 .aboutme h1 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -278,7 +278,7 @@ html {
   .main p {
     color: black;
     font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 300;
     letter-spacing: 1.5px;
     line-height: 30px;
@@ -381,7 +381,7 @@ html {
   }
 
 .img-me {
-    display: block;
+    display: inline-block;
     margin-left: 9rem;
     margin-right: auto;
     width: 80%;
