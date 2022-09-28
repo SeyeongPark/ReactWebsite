@@ -243,14 +243,17 @@ html {
     display: flex;
     flex-wrap: wrap;
     padding: 3rem 5rem;
-    width: 67rem;
+    width: 80rem;
     position: relative;
     margin: 0 auto;
     top: -4rem;
   }
   
   .main, div.text-main {
-    flex: 6 1;
+    /* flex: 6 1; */
+    margin-left: 80px;
+    justify-content: center;
+    height: 80vh;
   }
 
   div.text-main .site-icon {
@@ -272,7 +275,8 @@ html {
   }
 
   .about-text {
-    width: 130%;
+    width: 650px;
+ 
   }
 
   .main p {
@@ -293,7 +297,6 @@ html {
   .myself {
     display: flex;
     gap: 5em;
-    padding-top: 6%;
   }
   
   .myself i, .myself-right i {
@@ -333,9 +336,12 @@ html {
   }
 
   .main div.img-main {
-    width: auto;
-    height: auto;
-    flex: 460px;
+    /* flex: 460px; */
+
+    text-align:center;
+    display:table;
+    width:380px;
+    height:250px;
   }
 
   .skillsets-section,
@@ -381,11 +387,14 @@ html {
   }
 
 .img-me {
-    display: inline-block;
-    margin-left: 9rem;
-    margin-right: auto;
-    width: 80%;
-    height: 100%;
+    /* display: inline-block; */
+    /* margin-left: 1rem; */
+    /* margin-right: auto; */
+    /* width: 80%; */
+    /* height: 100%; */
+
+    max-width:380px;
+    max-height:380px;
   }
 
 .txt-rotate > .wrap {
