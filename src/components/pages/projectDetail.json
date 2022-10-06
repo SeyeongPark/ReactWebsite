@@ -2,7 +2,7 @@
     "todo" : {
       "title" : "Todo",
       "coop" : "Solo",
-      "skill" : "MongoDB, Express, React, Node.js, HTML, CSS",
+      "skill" : "MongoDB, Express, React, Node.js, HTML/CSS",
       "date" : "June 2022",
       "url" : "https://sptech-todo.netlify.app",
       "github" : "https://github.com/SeyeongPark/todo-mern-backend", 
@@ -12,18 +12,18 @@
     "emp" : {
       "title" : "Employee Time Tracker",
       "coop" : "Solo",
-      "skill" : "Java, MySQL, Spring Framework, HTML, CSS",
+      "skill" : "Java, MySQL, Spring Framework, HTML/CSS",
       "date" : "May 2022",
       "url" : "https://timestamp-app-1.herokuapp.com",
       "github" : "https://github.com/SeyeongPark/PartTime-TimeStamp", 
-      "description" : "A web application that records employees' working time stamps from start to finish, and allows the manager to access all information. </br></br>In this application, there are 2 main roles, employee and manager. All workers can record their working hours by clicking the 'record' button and will be calculated their working hours based on starting to finishing work on the main page. On the 'My Employee' page, a manager can check not only all employees' information for working hours, but also update their salary and specific position.</br>(For conveniently demonstrating this app, the timer will be counted as minutely not hourly.) <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/timetracker/tt-detail.png'/></div>",
+      "description" : "A web application that records employees' working time stamps from start to finish, and allows the manager to access all information. </br></br>In this application, there are 2 main roles, employee and manager. All workers can record their working hours by clicking the 'record' button and will be calculated their working hours based on starting to finishing work on the main page. On the 'My Employee' page, a manager can check not only all employees' information for working hours, but also update their salary and specific position.</br>(For conveniently demonstrating this app, the timer will be counted as minutely not hourly) <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/timetracker/tt-detail.png'/></div>",
       "learned": "- Structuring SQL module and entity for a database using <b>MySQL</b></br>- Implementing Controller for all features integrating with <b>Restful API</b></br>- Setting the authentication to log in and permission for a manager page"
     },
   
     "hotauc" : {
       "title" : "HotAuc Action",
       "coop" : "Team",
-      "skill" : "JavaScript, React.js, MongoDB, HTML, CSS",
+      "skill" : "JavaScript, React.js, MongoDB, HTML/CSS",
       "date" : "APRIL 2022",
       "description" : "HotAuc is a web application where Hot Wheels collectors can buy and sell cars over auctions. Moreover, the application allows buyers to pay for a winning bid over Paypal, sellers to check their earnings and administrators to edit information. <br> <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/hotauc/pages.png'/></div>",
       "contribution" : "- Implemented a <b>user interface</b> for results of the payment based on returned data from Payment API (PayPal)<br/>- Showed the users’ selling/ buying information (total earnings, each information of items..), which is stored on <b>MongoDB</b><br/>- Designed <b>UX/UI</b> of user dashboard frame",
@@ -32,12 +32,25 @@
     "serveymaker" : {
       "title" : "Super Survey Maker",
       "coop" : "Team",
-      "skill" : "HTML, CSS",
+      "skill" : "HTML/CSS",
       "date" : "DECEMBER 2020",
       "url" : "https://team1c-f2020.herokuapp.com",
       "github" : "https://github.com/jodoubleny/team1c", 
       "description" : "A web application where users can create their own surveys and manage the surveys.<br/><br/>A logged-in user is able to create a survey based on the survey template. All of the surveys will show on the ‘List of surveys’ page. Through the ‘My Survey’ page, the user can check the user’s survey and edit/delete the survey.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/pages.png'/><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/detail-sm.png'/></div>",
       "contribution" : "- Designed <b>UX/UI</b> for all web pages as a Web Designer<br/>- Documented an External Design Document (Style Guide) which is included wireframes for each page, color swatches, mockups, navigation schematic, and so on",
       "learned": "- Understanding styling for <b>HTML</b> and <b>CSS</b></br>- Communicating with team members and Reporting my worked tasks during the meeting"
+    },
+    "urqr" : {
+      "title" : "URQR",
+      "coop" : "Solo",
+      "skill" : "MongoDB, Express, React, Node.js, (AWS), HTML/CSS",
+      "date" : "SEPTEMBER 2022 (V1)",
+      "url" : "https://sptech-urqr.herokuapp.com",
+
+      "description" : "A web/mobile application that generates a QR code with child information for an emergency card. </br>URQR offers a QR(Quick Response) code for your child! In this QR code, it is included contact information so that can check the child’s protector. With a smartphone camera, you can scan the QR code easily and it would lead to your child’s information page. </br></br> Currently, it is continuing to develop to provide various useful data types, which is an image, voice recordings, and so forth!</br></br><b>[v1.0] - SEPTEMBER 30</b> </br>• You can generate a QR code with personal information(Name, BirthDate, Phone number, School Info, Special Info, and password) </br>• Able to check the QR code information by scanning the QR code with a phone camera</br>: You can also check through URQR URL <i>'https://sptech-urqr.herokuapp.com/search/<b>YOUR_QRCODE</b>'</br></i>• Edit/Update QR Info through password </br><div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/urqr/detail-urqr.png'/></div>",
+      
+      "learned": 
+      "- Using an external library (<a href='https://www.npmjs.com/package/react-qr-code'>react-qr-code</a>)</br>- How a QR code is generated and works</br>- Using the <b>async/await function</b> and the concept</br>- The concept of 'App Sleeping' on Heroku"
     }
 }
+

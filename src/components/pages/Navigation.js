@@ -18,6 +18,7 @@ function Navigation() {
         <Route path='/project/timetracker' render={() => <ProjectDetail {...projectDetail.emp} />}/>
         <Route path='/project/hotauc' render={() => <ProjectDetail {...projectDetail.hotauc} />}/>
         <Route path='/project/surveymaker' render={() => <ProjectDetail {...projectDetail.serveymaker} />}/>
+        <Route path='/project/urqr' render={() => <ProjectDetail {...projectDetail.urqr} />}/>
       </Switch>
     </Router>
       <Footer/>
