@@ -10,33 +10,39 @@ function ProjectCards() {
       <div className="cards__container">
           <div className="cards__wrapper">
               <ul className="cards__items">
-              <CardItem
-                  src="images/Todo-1.webp"
-                  page = "/project/todo"
-                  title = "Todo (Jun 2022)"
-                  description = "A web application that helps users stay organized and managed by adding their tasks on to lists."
-                  detail = "Register | Login | CRUD each todo tasks"
-                  skill = "MongoDB, Express, React, Node.js, Netlify, Heroku"
-                  application = "Website"
-                  coop = "Solo"
-                  url = "https://sptech-todo.netlify.app"
-                  github = "https://github.com/SeyeongPark/todo-mern-backend"
-                  />
-
-              <CardItem
-                  src="images/TS-3.webp"
-                  page = "/project/timetracker"
-                  title = "Employee Time Tracker (May 2022)"
-                  description = "A web application that records employees working time stamps from start to finish, and allows the manager to access all information."
-                  detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
-                  skill = "Java, MySQL, Spring Framework, Spring Boot, Spring Security, JPA, Heroku"
-                  application = "Website"
-                  coop = "Solo"
-                  url = "https://timestamp-app-1.herokuapp.com/"
-                  github = "https://github.com/SeyeongPark/PartTime-TimeStamp"
-                  />
-                
-                  
+                <CardItem
+                    src="images/URQR.png"
+                    page = "/project/urqr"
+                    title = "URQR (Sep 2022 ver 1.0) "
+                    description = "A web/mobile application that generates QR code with child information for an emergency card."
+                    coop = "Solo"
+                    />
+              </ul>
+              <ul className="cards__items">
+                <CardItem
+                    src="images/Todo-1.webp"
+                    page = "/project/todo"
+                    title = "Todo (Jun 2022)"
+                    description = "A web application that helps users stay organized and managed by adding their tasks on to lists."
+                    detail = "Register | Login | CRUD each todo tasks"
+                    skill = "MongoDB, Express, React, Node.js, Netlify, Heroku"
+                    application = "Website"
+                    coop = "Solo"
+                    url = "https://sptech-todo.netlify.app"
+                    github = "https://github.com/SeyeongPark/todo-mern-backend"
+                    />
+                <CardItem
+                    src="images/TS-3.webp"
+                    page = "/project/timetracker"
+                    title = "Employee Time Tracker (May 2022)"
+                    description = "A web application that records employees working time stamps from start to finish, and allows the manager to access all information."
+                    detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
+                    skill = "Java, MySQL, Spring Framework, Spring Boot, Spring Security, JPA, Heroku"
+                    application = "Website"
+                    coop = "Solo"
+                    url = "https://timestamp-app-1.herokuapp.com/"
+                    github = "https://github.com/SeyeongPark/PartTime-TimeStamp"
+                    />
               </ul>
               <ul className="cards__items">
                 <CardItem 
@@ -64,15 +70,6 @@ function ProjectCards() {
                   url = "https://team1c-f2020.herokuapp.com/home"
                   github = "https://github.com/jodoubleny/team1c"
                   skill = "HTML, CSS"
-                  />
-              </ul>
-              <ul>
-              <CardItem
-                  src="images/URQR.png"
-                  page = "/project/urqr"
-                  title = "URQR (Sep 2022 ver 1.0) "
-                  description = "A web/mobile application that generates QR code with child information for an emergency card."
-                  coop = "Solo"
                   />
               </ul>
           </div>
