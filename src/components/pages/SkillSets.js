@@ -13,7 +13,7 @@ export default function SkillSets(){
                     <th className="title">Frontend</th>
                     <td className="content">
                         <ul>
-                            <li><em>Language</em>: JavaScript, HTML, CSS</li>
+                            <li><em>Language</em>: JavaScript, JAVA, C#, HTML/CSS</li>
                             <li><em>Framework</em>: React.js, GraphQL API</li>
                         </ul>
                     </td>
