@@ -42,7 +42,7 @@
     },
     "urqr" : {
       "title" : "URQR",
-      "coop" : "Solo",
+      "coop" : "Team",
       "skill" : "MongoDB, Express, React, Node.js, (AWS), HTML/CSS",
       "date" : "SEPTEMBER 2022 (V1)",
       "url" : "https://sptech-urqr.herokuapp.com",

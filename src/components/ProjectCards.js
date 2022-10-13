@@ -15,7 +15,7 @@ function ProjectCards() {
                     page = "/project/urqr"
                     title = "URQR (Sep 2022 ver 1.0) "
                     description = "A web/mobile application that generates QR code with child information for an emergency card."
-                    coop = "Solo"
+                    coop = "Team"
                     />
               </ul>
               <ul className="cards__items">
