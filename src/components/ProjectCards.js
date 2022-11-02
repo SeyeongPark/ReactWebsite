@@ -13,7 +13,7 @@ function ProjectCards() {
                 <CardItem
                     src="images/URQR.png"
                     page = "/project/urqr"
-                    title = "URQR (Sep 2022 ver 1.0) "
+                    title = "URQR (Oct 2022 ver 3.0) "
                     description = "A web/mobile application that generates QR code with child information for an emergency card."
                     coop = "Team"
                     />
