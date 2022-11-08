@@ -14,7 +14,7 @@ function ProjectCards() {
                     src="images/URQR.png"
                     page = "/project/urqr"
                     title = "URQR (Oct 2022 ver 3.0) "
-                    description = "A web/mobile application that generates QR code with child information for an emergency card."
+                    description = "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera."
                     coop = "Team"
                     />
               </ul>
@@ -23,7 +23,7 @@ function ProjectCards() {
                     src="images/Todo-1.webp"
                     page = "/project/todo"
                     title = "Todo (Jun 2022)"
-                    description = "A web application that helps users stay organized and managed by adding their tasks on to lists."
+                    description = "A web application that helps users stay organized by adding their tasks to ToDo lists."
                     detail = "Register | Login | CRUD each todo tasks"
                     skill = "MongoDB, Express, React, Node.js, Netlify, Heroku"
                     application = "Website"
@@ -35,7 +35,7 @@ function ProjectCards() {
                     src="images/TS-3.webp"
                     page = "/project/timetracker"
                     title = "Employee Time Tracker (May 2022)"
-                    description = "A web application that records employees working time stamps from start to finish, and allows the manager to access all information."
+                    description = "A web application that helps employees and managers track time stamps."
                     detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
                     skill = "Java, MySQL, Spring Framework, Spring Boot, Spring Security, JPA, Heroku"
                     application = "Website"
@@ -50,7 +50,7 @@ function ProjectCards() {
                   title="HotAuc Auction (Apr 2022)"
                   page = "/project/hotauc"
                   description=
-                  "A web application where Hot Wheels collectors buy and sell cars through auctions."
+                  "A web application where Hot Wheels collectors buy and sell collections through auctions."
                   role="FE (Payment Method using Paypal), BE/FE (Utilize user's payment Info for selling info) "
                   application = "Website"
                   coop = "Team"
