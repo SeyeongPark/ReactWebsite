@@ -27,7 +27,7 @@
       "date" : "APRIL 2022",
       "description" : "A web application where Hot Wheels collectors buy and sell collections through auctions. </br></br>A user can make an auction and check each earnings about the items and edit/update auction information. After the bidding period is finished, the final highest bidder can make the payment for the auction item using Paypal.  <br> <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/hotauc/pages.png'/></div>",
       "contribution" : "- Built a <b>user interface</b> to show the results of the payment based on returned data from <b>Payment API</b> (PayPal)<br/>- Implemented a dashboard for a user’s selling/ buying detail (including total earnings and the information of each auction item) using data from <b>MongoDB</b><br/>- Designed <b>UX/UI</b> of a dashboard frame using <b>JavaScript</b> and <b>HTML/CSS</b>",
-      "learned": "- Understanding handling <b>React.js</b> and <b>MongoDB</b> (module, schema, API, and so on) </br>- Communicating with other developers about team working process and explaining my tasks currently working on in the regular meetings</br>- Reviewing and understanding other developers' code and following the project schedule"
+      "learned": "- Understanding handling <b>React.js</b> and <b>MongoDB</b> (module, schema, API, and so on) </br>- Communicating with team members and explaining the tasks I am currently working on during regular meetings</br>- Reviewing and understanding other developers' code and following the project schedule"
     },
     "serveymaker" : {
       "title" : "Super Survey Maker",
@@ -37,7 +37,7 @@
       "github" : "https://github.com/jodoubleny/team1c", 
       "description" : "A web application where users can create their own surveys and manage the surveys.<br/><br/>A user can create a new survey and add questions. All of the surveys will be listed on the ‘List of surveys’ page. On the ‘My Survey’ page, the user can check, edit, and delete surveys.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/pages.png'/><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/detail-sm.png'/></div>",
       "contribution" : "As a <b>Web Designer</b>,</br>- Designed <b>UX/UI</b> for all web pages using <b>HTML/CSS</b></br>- Documented an External Design Document (Style Guide) which included wireframes for each page, colour swatches, mockups, navigation schematic, and so on",
-      "learned": "- Understanding basic styling structure of <b>HTML</b> and <b>CSS</b></br>- Communicating with team members and explaining my tasks working on during the regular meetings"
+      "learned": "- Understanding basic styling structure of <b>HTML</b> and <b>CSS</b></br>- Communicating with team members and explaining the tasks I am currently working on during regular meetings"
     },
     "urqr" : {
       "title" : "URQR",
