@@ -2,22 +2,22 @@
     "todo" : {
       "title" : "Todo",
       "coop" : "Solo",
-      "skill" : "MongoDB, Express, React, Node.js, HTML/CSS",
+      "skill" : "React, MongoDB, Express, Node.js, HTML/CSS",
       "date" : "June 2022",
       "url" : "https://sptech-todo.netlify.app",
-      "github" : "https://github.com/SeyeongPark/todo-mern-backend", 
-      "description" : "A simple web application helps users stay organized and managed by adding their tasks to lists.</br>In this application, the user can check all of the items on the list and create, delete, and make each to-do item to the 'completed' state.</br></br> Also, user can access this application not only on their local computer but also everywhere that have an internet connection by using user authentication.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/todo/td-detail.png'/></div>",
-      "learned": "- Developing <b>CRUD</b> operation with the API server with <b>MongoDB</b></br>- Hosting the back-end (server) side and connecting it with the front-end(client) side</br>- Styling advanced UI/UX with <b>JSX(using a conditional operator)</b> and <b>CSS</b> (using root, hover..)</br>- Setting authentication with a json <b>web token</b>"
+      "github" : "https://github.com/SeyeongPark/todo-mern-client", 
+      "description" : "A web application that helps users stay organized by adding their tasks to ToDo lists. </br></br> In this application, a user can create, read, and delete the ToDo lists, and change a task to the 'completed' state.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/todo/td-detail.png'/></div>",
+      "learned": "- Developing CRUD operations with the <b>RESTful API</b> and storing data using <b>MongoDB</b></br>- Interacting with the back-end(server) and the front-end(client) using <b>Express.js</b> and <b>Node.js</b></br>- Styling advanced <b>UI/UX</b> using JSX and CSS</br>- Introducing web authentication using modules, <b>JWT</b> and <b>JOI</b> in the back end"
     },
     "emp" : {
       "title" : "Employee Time Tracker",
       "coop" : "Solo",
-      "skill" : "Java, MySQL, Spring Framework, HTML/CSS",
+      "skill" : "Java, MySQL, Spring Boot, HTML/CSS",
       "date" : "May 2022",
       "url" : "https://timestamp-app-1.herokuapp.com",
-      "github" : "https://github.com/SeyeongPark/PartTime-TimeStamp", 
-      "description" : "A web application that records employees' working time stamps from start to finish, and allows the manager to access all information. </br></br>In this application, there are 2 main roles, employee and manager. All workers can record their working hours by clicking the 'record' button and will be calculated their working hours based on starting to finishing work on the main page. On the 'My Employee' page, a manager can check not only all employees' information for working hours, but also update their salary and specific position.</br>(For conveniently demonstrating this app, the timer will be counted as minutely not hourly) </br></br> Test account </br> Email : employee1@sptech.com </br> Password : password<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/timetracker/tt-detail.png'/><h3>Project Database Diagram </h3><img loading='lazy' id='detail-img' src='../images/projects/timetracker/db_diagram.png'</div>",
-      "learned": "- Structuring of <b>Relational Database Management System (RDBMS)</b> and entity for a database using <b>MySQL</b></br>- Implementing Controller for all features integrating with <b>Restful API</b></br>- Setting the authentication to log in and permission for a manager page"
+      "github" : "https://github.com/SeyeongPark/java-timestamp", 
+      "description" : "A web application that helps employees and managers track time stamps. </br></br>All employees can record their working hours from start to end which will be calculated their working hours on the main page.  </br></br>On the 'My Employee' page, a user who is assigned a 'manager' role can check not only all employees' information including their working hours but also update their salary information and specific position. </br>(For conveniently demonstrating this app, the timer will be counted as minutely not hourly) </br></br> <b>Test account</b> </br>(role: manager) </br> Email : manager1@sptech.com </br> Password : password </br>-</br> (role: employee) </br> Email : arons@spech.com </br> Password : password<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/timetracker/tt-detail.png'/><h3>Project Database Diagram </h3><img loading='lazy' id='detail-img' src='../images/projects/timetracker/db_diagram.png'</div>",
+      "learned": "- Structuring of <b>Relational Database Management System (RDBMS)</b> and entity using <b>MySQL</b> </br>- Query data for CRUD using <b>Java Persistence Query Language (JPQL)</b></br>- Using <b>Web Security Configurer Adapter</b> in Spring Security for implementing authentication (login) and limit page permissions"
     },
   
     "hotauc" : {
@@ -25,25 +25,24 @@
       "coop" : "Team",
       "skill" : "JavaScript, React.js, MongoDB, HTML/CSS",
       "date" : "APRIL 2022",
-      "description" : "HotAuc is a web application where Hot Wheels collectors can buy and sell cars over auctions. Moreover, the application allows buyers to pay for a winning bid over Paypal, sellers to check their earnings and administrators to edit information. <br> <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/hotauc/pages.png'/></div>",
-      "contribution" : "- Implemented a <b>user interface</b> for results of the payment based on returned data from Payment API (PayPal)<br/>- Showed the users’ selling/ buying information (total earnings, each information of items..), which is stored on <b>MongoDB</b><br/>- Designed <b>UX/UI</b> of user dashboard frame",
-      "learned": "- Understanding <b>React.js</b> and <b>MongoDB</b> (module, schema, api..)  </br>- Communicating with team (8) members and Reporting my worked tasks during the meeting </br>- Reading and understanding other team members's code"
+      "description" : "A web application where Hot Wheels collectors buy and sell collections through auctions. </br></br>A user can make an auction and check each earnings about the items and edit/update auction information. After the bidding period is finished, the final highest bidder can make the payment for the auction item using Paypal.  <br> <div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/hotauc/pages.png'/></div>",
+      "contribution" : "- Built a <b>user interface</b> to show the results of the payment based on returned data from <b>Payment API</b> (PayPal)<br/>- Implemented a dashboard for a user’s selling/ buying detail (including total earnings and the information of each auction item) using data from <b>MongoDB</b><br/>- Designed <b>UX/UI</b> of a dashboard frame using <b>JavaScript</b> and <b>HTML/CSS</b>",
+      "learned": "- Understanding handling <b>React.js</b> and <b>MongoDB</b> (module, schema, API, and so on) </br>- Communicating with other developers about team working process and explaining my tasks currently working on in the regular meetings</br>- Reviewing and understanding other developers' code and following the project schedule"
     },
     "serveymaker" : {
       "title" : "Super Survey Maker",
       "coop" : "Team",
       "skill" : "HTML/CSS",
       "date" : "DECEMBER 2020",
-      "url" : "https://team1c-f2020.herokuapp.com",
       "github" : "https://github.com/jodoubleny/team1c", 
-      "description" : "A web application where users can create their own surveys and manage the surveys.<br/><br/>A logged-in user is able to create a survey based on the survey template. All of the surveys will show on the ‘List of surveys’ page. Through the ‘My Survey’ page, the user can check the user’s survey and edit/delete the survey.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/pages.png'/><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/detail-sm.png'/></div>",
-      "contribution" : "- Designed <b>UX/UI</b> for all web pages as a Web Designer<br/>- Documented an External Design Document (Style Guide) which is included wireframes for each page, color swatches, mockups, navigation schematic, and so on",
-      "learned": "- Understanding styling for <b>HTML</b> and <b>CSS</b></br>- Communicating with team members and Reporting my worked tasks during the meeting"
+      "description" : "A web application where users can create their own surveys and manage the surveys.<br/><br/>A user can create a new survey and add questions. All of the surveys will be listed on the ‘List of surveys’ page. On the ‘My Survey’ page, the user can check, edit, and delete surveys.<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/pages.png'/><img loading='lazy' id='detail-img' src='../images/projects/surveymaker/detail-sm.png'/></div>",
+      "contribution" : "As a <b>Web Designer</b>,</br>- Designed <b>UX/UI</b> for all web pages using <b>HTML/CSS</b></br>- Documented an External Design Document (Style Guide) which included wireframes for each page, colour swatches, mockups, navigation schematic, and so on",
+      "learned": "- Understanding basic styling structure of <b>HTML</b> and <b>CSS</b></br>- Communicating with team members and explaining my tasks working on during the regular meetings"
     },
     "urqr" : {
       "title" : "URQR",
       "coop" : "Team",
-      "skill" : "MongoDB, Express, React, Node.js, AWS, HTML/CSS",
+      "skill" : "React, MongoDB, Express, Node.js, AWS, HTML/CSS",
       "date" : "SEPTEMBER 2022",
       "github": "https://github.com/SeyeongPark/URQR-client",
       "url" : "https://sptech-urqr.herokuapp.com",
