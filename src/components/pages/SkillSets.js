@@ -22,7 +22,7 @@ export default function SkillSets(){
                     <th className="title">Backend</th>
                     <td className="content"> 
                         <ul>
-                            <li><em>Language</em>: JSP/Servlet(JAVA), ASP.NET(C#), Python </li>
+                            <li><em>Language</em>: JavaScript, JSP/Servlet(JAVA), ASP.NET(C#), Python </li>
                             <li><em>Framework</em>: Node.js(JavaScript), Spring(Java), Express.js</li>
                         </ul>  
                     </td>
