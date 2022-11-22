@@ -21,7 +21,7 @@ function Navigation() {
         <Route path='/project/urqr' render={() => <ProjectDetail {...projectDetail.urqr} />}/>
       </Switch>
     </Router>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }

@@ -350,7 +350,7 @@ html {
 
   .main-skill-set {
     flex-wrap: wrap;
-    padding: 0 4rem 10rem 4rem;
+    padding: 0 4rem 0rem 4rem;
     width: 67rem;
     margin: 0 auto;
     position: relative;
@@ -850,8 +850,8 @@ h5 {
 /* Footer */
 .footer-container {
   background-color: #242424;
-  padding: 10px 0 2rem 0;
   display: flex;
+  color: red;
   flex-direction: column;
   justify-content: center;
   align-items: center;
