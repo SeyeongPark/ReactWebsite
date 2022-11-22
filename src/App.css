@@ -450,7 +450,7 @@ html {
 
     .myself {
       /* Set element horizontally */
-      display: flex;
+      display:block;
       gap: 5em;
       width: 0rem;
       font-size: 18px;
@@ -458,7 +458,7 @@ html {
     }
 
     .myself-right {
-        padding: 0 0 10% 20%;
+      padding: 0 0 10% 20%;
     }
 
     .myself i, .myself-right i {
@@ -484,6 +484,8 @@ html {
     .myself-right p{
       color: rgb(0, 0, 0);
       font-weight: 300;
+      background-color: red;
+      /* word-break:break-all; */
       font-size: 18px;
       font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
