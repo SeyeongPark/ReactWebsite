@@ -303,7 +303,8 @@ html {
     color: black;
   }
   
-  .myself-left{
+  .myself-left,
+  .myself-right{ 
     width: max-content;
   }
 
@@ -455,7 +456,6 @@ html {
       gap: 5em;
       width: 0rem;
       font-size: 18px;
-      padding: 5% 1rem 3rem 10%;
     }
 
     .myself-right {
@@ -485,17 +485,12 @@ html {
     .myself-right p{
       color: rgb(0, 0, 0);
       font-weight: 300;
-      background-color: red;
-      /* word-break:break-all; */
       font-size: 18px;
-      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       line-height: 30px;
-      padding-top:20px;
     }
 
     .main .title {
       font-size: 20px;
-      font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       font-weight: 400;
       text-align: left;
     }
