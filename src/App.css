@@ -265,7 +265,6 @@ html {
 
   div.text-main .social-icon-link  {
     padding-right: 30%;
-    padding-top: 10%;
     position: relative;
     color: black;
   }
@@ -276,7 +275,6 @@ html {
 
   .about-text {
     width: 650px;
- 
   }
 
   .main p {
@@ -444,8 +442,11 @@ html {
     }
     
     .about-text {
-      padding: 5% 10% 1rem 10%;
       width: 100%;
+    }
+
+    .social-icon {
+      display: flex;
     }
 
     .myself {

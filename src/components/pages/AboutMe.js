@@ -36,16 +36,17 @@ export const AboutMe = () => {
                                 </p>
                             </div>
                         </div>
-                        
-                        <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
-                        <img className="github-icon" loading='lazy' src="../images/github.svg" alt=""/>
-                        </a>
+                        <div className='social-icon'>
+                            <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
+                            <img className="github-icon" loading='lazy' src="../images/github.svg" alt=""/>
+                            </a>
 
-                         <a className="social-icon-link"
-                        href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
-                        aria-label='Linkedin'>
-                             <img className="linkedin-icon" loading='lazy' src="../images/linkedin.svg" alt=""/>   
-                        </a>
+                            <a className="social-icon-link"
+                            href = 'https://www.linkedin.com/in/seyeong-park-0788a4200/'
+                            aria-label='Linkedin'>
+                                <img className="linkedin-icon" loading='lazy' src="../images/linkedin.svg" alt=""/>   
+                            </a>
+                        </div>
                     </div>
 
                     <div className="img-main">
