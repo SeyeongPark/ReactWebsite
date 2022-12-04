@@ -37,7 +37,7 @@ export const AboutMe = () => {
                             </div>
                         </div>
                         <div className='social-icon'>
-                            <a className="site-icon" href = 'https://github.com/SeyeongPark'>
+                            <a className="site-icon" href = 'https://github.com/SeyeongPark?tab=repositories'>
                             <img className="github-icon" loading='lazy' src="../images/github.svg" alt=""/>
                             </a>
 
