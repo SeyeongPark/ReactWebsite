@@ -14,7 +14,7 @@ export default function SkillSets(){
                     <td className="content">
                         <ul>
                             <li><em>Language</em>: JavaScript, JAVA, C#, HTML/CSS</li>
-                            <li><em>Framework</em>: React.js, GraphQL API</li>
+                            <li><em>Framework/Library</em>: React.js, GraphQL API, jQuery</li>
                         </ul>
                     </td>
                 </tr>
@@ -23,7 +23,7 @@ export default function SkillSets(){
                     <td className="content"> 
                         <ul>
                             <li><em>Language</em>: JavaScript, JSP/Servlet(JAVA), ASP.NET(C#), Python </li>
-                            <li><em>Framework</em>: Node.js(JavaScript), Spring(Java), Express.js</li>
+                            <li><em>Framework/Library</em>: Node.js(JavaScript), Spring(Java), Express.js</li>
                         </ul>  
                     </td>
                 </tr>
