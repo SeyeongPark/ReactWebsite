@@ -1,7 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { useState, useEffect } from 'react';
+import $ from 'jquery';
+import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.development';
 
 export const Navbar = () => {
+  
   const [button, setButton] = useState(true);
   const [click, setClick] = useState(false);
 
@@ -32,19 +36,19 @@ export const Navbar = () => {
                 </div>
                 <ul className={click ? 'navbar-nav active' : 'navbar-nav'}>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/#' onClick={closeMobileMenu}>
+                    <HashLink className='nav-link' smooth to="/#aboutme">
                       AboutMe
-                    </a>
+                    </HashLink>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/#projects' onClick={closeMobileMenu}>
+                    <HashLink className='nav-link' smooth to="/#projects">
                       Projects
-                    </a>
+                    </HashLink>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='/#skillsets' onClick={closeMobileMenu}>
+                    <HashLink className='nav-link' smooth to="/#skillsets">
                       SkillSets
-                    </a>
+                    </HashLink>
                   </li>
                 </ul>
             </div>

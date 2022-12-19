@@ -1,4 +1,5 @@
 export const ProjectDetail = (props) => {
+    window.scrollTo( 0, 0 )
     return (
         <>
         <div loading='lazy' className="project-banner">

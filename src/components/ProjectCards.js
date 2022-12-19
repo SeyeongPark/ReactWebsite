@@ -12,7 +12,7 @@ function ProjectCards() {
               <ul className="cards__items">
                 <CardItem
                     src="images/URQR.png"
-                    page = "/project/urqr"
+                    page = "#/project/urqr"
                     title = "URQR (Oct 2022 ver 3.0) "
                     description = "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera."
                     coop = "Team"
@@ -21,7 +21,7 @@ function ProjectCards() {
               <ul className="cards__items">
                 <CardItem
                     src="images/Todo-1.webp"
-                    page = "/project/todo"
+                    page = "#/project/todo"
                     title = "Todo (Jun 2022)"
                     description = "A web application that helps users stay organized by adding their tasks to ToDo lists."
                     detail = "Register | Login | CRUD each todo tasks"
@@ -33,7 +33,7 @@ function ProjectCards() {
                     />
                 <CardItem
                     src="images/TS-3.webp"
-                    page = "/project/timetracker"
+                    page = "#/project/timetracker"
                     title = "Employee Time Tracker (May 2022)"
                     description = "A web application that helps employees and managers track time stamps."
                     detail = "Register | Login | Record Working Time | View/Manage Employee’s information(Salary, Email..)"
@@ -48,7 +48,7 @@ function ProjectCards() {
                 <CardItem 
                   src="images/HA-1.webp"
                   title="HotAuc Auction (Apr 2022)"
-                  page = "/project/hotauc"
+                  page = "#/project/hotauc"
                   description=
                   "A web application where Hot Wheels collectors buy and sell collections through auctions."
                   role="FE (Payment Method using Paypal), BE/FE (Utilize user's payment Info for selling info) "
@@ -61,7 +61,7 @@ function ProjectCards() {
               <CardItem 
                   src="images/SM-1.webp"
                   title="Super Survey Maker (DEC 2020)"
-                  page="/project/surveymaker"
+                  page="#/project/surveymaker"
                   description=
                   "A web application where users can create their own surveys and manage the surveys."
                   role="Web Design"
