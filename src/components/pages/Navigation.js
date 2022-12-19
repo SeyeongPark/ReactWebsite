@@ -7,7 +7,7 @@ import { Footer } from '../Footer';
 import projectDetail from './projectDetail.json'
 
 function Navigation() {
-  const MAIN_URL = 'https://seyeongpark.github.io/';
+  const MAIN_URL = 'https://seyeongpark.github.io';
   
   return (
     <>
