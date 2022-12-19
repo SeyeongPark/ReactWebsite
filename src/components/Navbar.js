@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { useState, useEffect } from 'react';
-import $ from 'jquery';
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.development';
 
 export const Navbar = () => {

@@ -18,17 +18,13 @@
 }
 
 /* Navbar */
-html {
-  scroll-behavior: smooth;
-}
-
 .navbar {
     background: rgba(255, 255, 255, 0.537);
     z-index: 1;
     display: flex;
     position:fixed; 
-    width:100%;	
-    top:0;	
+    width:100%; 
+    top:0;  
     left:0;
   }
   
@@ -38,7 +34,7 @@ html {
 
     display: flex;
     position:fixed; 
-    width:105%;	
+    width:105%; 
   }
 
   .web-brand {
@@ -205,8 +201,13 @@ html {
 
   background-image: url('../public/images/project-banner.webp');
   background-size:cover;
+
   width: 100%;
-  object-fit:cover;
+  display:grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
 }
 
 .skill-set-container{
@@ -220,6 +221,15 @@ html {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+}
+
+.cards__container h1 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  color: black;
+  position: relative;
+  padding-top: 10rem;
 }
 
 .project-banner h1 {
@@ -242,15 +252,21 @@ html {
 .main{
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 5rem;
+    padding: 0rem 5rem;
     width: 80rem;
     position: relative;
     margin: 0 auto;
-    top: -4rem;
+    /* top: -4rem; */
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
+    /* background-color:red; */
   }
   
   .main, div.text-main {
-    /* flex: 6 1; */
     margin-left: 80px;
     justify-content: center;
     height: 80vh;
@@ -326,7 +342,6 @@ html {
     height: auto;
   }
 
-
   .myself p, .myself-right p .email{
     font-size: 18px;
     font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -335,7 +350,7 @@ html {
   }
 
   .main div.img-main {
-    /* flex: 460px; */
+    flex: 460px;
 
     text-align:center;
     display:table;
@@ -695,13 +710,13 @@ h5 {
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 0 0 45px;
 }
 
 .cards__items {
   margin-bottom: 24px;
   position:relative;
-  top: -50px;
+  /* top: -50px; */
 }
 
 .cards__item {
@@ -769,10 +784,9 @@ h5 {
 
 .cards__item:hover {
   background-color: rgb(255, 255, 255);
-  transform: scale(1.1);
+  transform: scale(1.04);
   transition: all 0.3s linear;
 }
-
 
 .cards__item__info {
   padding: 20px 30px 30px;
@@ -817,7 +831,6 @@ h5 {
   color: black; 
 }
 
-
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 90%;
@@ -846,18 +859,16 @@ h5 {
   }
 } 
 
-
 /* Footer */
 .footer-container {
   background-color: #242424;
   display: flex;
-  color: red;
+  /* color: red; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transform: translate(0, 0%);
 }
-
 
 /* Social Icons */
 .social-icon-link {
@@ -917,7 +928,6 @@ h5 {
       flex-direction: column;
   }
 }
-
 
 
 

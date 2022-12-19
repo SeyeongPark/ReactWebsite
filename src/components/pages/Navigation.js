@@ -9,7 +9,7 @@ import projectDetail from './projectDetail.json'
 function Navigation() {
   return (
     <>
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Navbar/> 
       <Switch>
         <Route path='/' exact component={Home}/>

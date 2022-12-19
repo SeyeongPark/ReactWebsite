@@ -3,8 +3,8 @@ import React from 'react';
 export const AboutMe = () => {
     return(
         <>
+            <section className="aboutme" id="aboutme">
             <div className="aboutme-container">
-                <section className="aboutme" id="aboutme">
                 <div className="main">
                     <div className="text-main">
                         <div className="about-text">
@@ -54,14 +54,14 @@ export const AboutMe = () => {
                         </div>
                     </div>
 
-                    <div className='scroll-container'>
+                    {/* <div className='scroll-container'>
                         <div id="scroll" className="demo">
-                            <a href="#projects"><span></span></a>
+                            <a href="#/#projects"><span></span></a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-                </section>
             </div>
+                </section>
             </>
     ) 
 }

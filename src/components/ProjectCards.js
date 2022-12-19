@@ -8,6 +8,7 @@ function ProjectCards() {
     <div className='cards'>
       <section className="projects-section" id="projects">
       <div className="cards__container">
+        <h1>Projects.</h1>
           <div className="cards__wrapper">
               <ul className="cards__items">
                 <CardItem

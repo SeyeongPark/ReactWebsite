@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.js'
+import { Navbar } from '../Navbar';
 import { AboutMe } from './AboutMe.js';
 import SkillSets from './SkillSets.js';
 import ProjectCards from '../ProjectCards'
