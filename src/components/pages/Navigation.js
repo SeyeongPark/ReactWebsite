@@ -7,18 +7,19 @@ import { Footer } from '../Footer';
 import projectDetail from './projectDetail.json'
 
 function Navigation() {
-
+  const MAIN_URL = 'https://seyeongpark.github.io/';
+  
   return (
     <>
     <Router>
       <Navbar/> 
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/project/todo' render={() => <ProjectDetail {...projectDetail.todo} />}/>
-        <Route path='/project/timetracker' render={() => <ProjectDetail {...projectDetail.emp} />}/>
-        <Route path='/project/hotauc' render={() => <ProjectDetail {...projectDetail.hotauc} />}/>
-        <Route path='/project/surveymaker' render={() => <ProjectDetail {...projectDetail.serveymaker} />}/>
-        <Route path='/project/urqr' render={() => <ProjectDetail {...projectDetail.urqr} />}/>
+        <Route path={MAIN_URL + '/project/todo'} render={() => <ProjectDetail {...projectDetail.todo} />}/>
+        <Route path={MAIN_URL + '/project/timetracker'} render={() => <ProjectDetail {...projectDetail.emp} />}/>
+        <Route path={MAIN_URL + '/project/hotauc'} render={() => <ProjectDetail {...projectDetail.hotauc} />}/>
+        <Route path={MAIN_URL + '/project/surveymaker'} render={() => <ProjectDetail {...projectDetail.serveymaker} />}/>
+        <Route path={MAIN_URL + '/project/urqr'} render={() => <ProjectDetail {...projectDetail.urqr} />}/>
       </Switch>
     </Router>
       {/* <Footer/> */}
