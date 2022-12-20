@@ -10,15 +10,18 @@ function ProjectCards() {
       <div className="cards__container">
         <h1>Projects.</h1>
           <div className="cards__wrapper">
+            <div data-aos="fade-up" data-aos-duration="1000">
               <ul className="cards__items">
-                <CardItem
-                    src="images/URQR.png"
-                    page = "#/project/urqr"
-                    title = "URQR (Oct 2022 ver 3.0) "
-                    description = "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera."
-                    coop = "Team"
-                    />
+                  <CardItem
+                      src="images/URQR.png"
+                      page = "#/project/urqr"
+                      title = "URQR (Oct 2022 ver 3.0) "
+                      description = "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera."
+                      coop = "Team"
+                      />
               </ul>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <ul className="cards__items">
                 <CardItem
                     src="images/Todo-1.webp"
@@ -45,6 +48,8 @@ function ProjectCards() {
                     github = "https://github.com/SeyeongPark/PartTime-TimeStamp"
                     />
               </ul>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <ul className="cards__items">
                 <CardItem 
                   src="images/HA-1.webp"
@@ -73,6 +78,7 @@ function ProjectCards() {
                   skill = "HTML, CSS"
                   />
               </ul>
+            </div>
           </div>
       </div>
       </section>
