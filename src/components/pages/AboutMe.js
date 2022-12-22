@@ -20,6 +20,10 @@ export const AboutMe = () => {
                                 <br/>
                                 <p>I’m a person <b>open</b> to new technology and new skills and <b>enjoy</b> hearing various ideas. 
                                 </p>
+                                <br/>
+                                <p> Let me tell you
+                                <a href='#/mystory' style={{textDecoration:'none'}}> My story (Click)!</a> 
+                                </p>
                             </div>
                         </div>
                         <br/>

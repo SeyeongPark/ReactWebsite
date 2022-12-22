@@ -1024,3 +1024,19 @@ h5 {
     line-height: 2.3rem;
   }
 }
+
+.myimage-left {
+  float: left;
+  width: 220px; 
+  height: 220px;
+  margin-right: 20px; 
+  margin-bottom: 20px;
+  }
+
+.myimage-right {
+  float: right;
+  width: 220px; 
+  height: 220px;
+  margin-left: 20px; 
+  margin-bottom: 20px;
+  }
