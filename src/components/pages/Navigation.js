@@ -5,6 +5,7 @@ import Home from './Home'
 import { ProjectDetail } from './ProjectDetail'
 import { Footer } from '../Footer';
 import projectDetail from './projectDetail.json'
+import MyStory from './MyStory';
 
 function Navigation() {
   return (
@@ -13,6 +14,7 @@ function Navigation() {
       <Navbar/> 
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path='/mystory' exact component={MyStory}/>
         <Route path='/project/todo' render={() => <ProjectDetail {...projectDetail.todo} />}/>
         <Route path='/project/timetracker' render={() => <ProjectDetail {...projectDetail.emp} />}/>
         <Route path='/project/hotauc' render={() => <ProjectDetail {...projectDetail.hotauc} />}/>
