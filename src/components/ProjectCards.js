@@ -11,9 +11,21 @@ function ProjectCards() {
           <div className="cards__wrapper">
               <ul className="cards__items">
                 <CardItem
+                    src="images/STBD.png"
+                    page = "/project/studybuddy"
+                    title = "Study Buddy (Oct 2023)"
+                    description = "Your study partner for keeping it simple, staying organized, and reaching your goals - with cool features like tracking time, saving links, counting dates, and setting goals."
+                    detail = "Link List | Date Counter | Goals"
+                    skill = "React, Node.js"
+                    application = "Website"
+                    coop = "Solo"
+                    url = "https://seyeongpark.github.io/study_buddy"
+                    github = "https://github.com/seyeongpark/study_buddy"
+                    />
+                <CardItem
                     src="images/URQR.png"
                     page = "/project/urqr"
-                    title = "URQR (Oct 2022 ver 3.0) "
+                    title = "URQR (2022) "
                     description = "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera."
                     coop = "Team"
                     />

@@ -52,10 +52,10 @@ export const ProjectDetail = (props) => {
             </div>    
             : ''}
 
-            <div className='project-learned'>
+            {props.learned ? <div className='project-learned'>
                 <h3>📚 What I’ve learned</h3>
                 <h5 dangerouslySetInnerHTML={{__html: props.learned}} />
-            </div>
+            </div> : ''}
         </div>
         </>
     )

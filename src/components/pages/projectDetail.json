@@ -2,7 +2,7 @@
     "todo" : {
       "title" : "Todo",
       "coop" : "Solo",
-      "skill" : "React, MongoDB, Express, Node.js, HTML/CSS",
+      "skill" : "React, MongoDB, Express, Node.js",
       "date" : "June 2022",
       "url" : "https://sptech-todo.netlify.app",
       "github" : "https://github.com/SeyeongPark/todo-mern-client", 
@@ -42,15 +42,23 @@
     "urqr" : {
       "title" : "URQR",
       "coop" : "Team",
-      "skill" : "React, MongoDB, Express, Node.js, AWS, HTML/CSS",
-      "date" : "SEPTEMBER 2022",
+      "skill" : "React, MongoDB, Express, Node.js, AWS",
+      "date" : "2022",
       "github": "https://github.com/SeyeongPark/URQR-client",
-      "url" : "https://sptech-urqr.herokuapp.com",
 
       "description" : "A web/mobile application that generates a QR code that shows child information for an emergency card when scanned by a phone camera. </br>URQR makes your QR(Quick Response) code which can store your child's information! In this QR code, you can store contact information to check the child’s protector. With a phone camera, you can scan the QR code easily and it will show your child's card information page!</br></br><b>[v1.0] - SEPTEMBER 30</b> </br>• Generating a QR code with input information(Name, BirthDate, Phone number, School Info, Special Info, and password) </br>• Checking the card information page by scanning the QR code using a phone camera</br></i>• Editing/Updating card information (require a password) </br></br><b>[v2.0] - OCTOBER 16</b></br>• [New features] Uploading an image in a card to help identify your child </br>• Designing a user interface for the mobile version </br></br><b>[v3.0] - OCTOBER 26</b></br>• Designing new UX/UI for searching card page</br>• [New features] Deleting a card (require a password)<div className='img-container'><img loading='lazy' id='detail-img' src='../images/projects/urqr/detail-urqr.png'/></div>",
       
       "learned": 
       "-  Interacting with external libraries' framework (<a href='https://www.npmjs.com/package/react-qr-code'>react-qr-code</a>) and components</br>- The concept of asynchronous and synchronous</br>- The generating a QR code and resulting"
+    },
+    "studybuddy" : {
+      "title" : "Study Buddy",
+      "coop" : "Solo",
+      "skill" : "React, Node.js",
+      "date" : "2022",
+      "github": "https://github.com/seyeongpark/study_buddy",
+
+      "description" : "Study Buddy is an app designed to help you streamline your study routine and stay organized. Whether you're a student or a lifelong learner, Study Buddy has features that can assist you in managing your study goals and resources efficiently.</br></br><b>1. Show Current Time</b></br> Study Buddy displays the current time on the dashboard, allowing you to keep track of your study sessions and calculate your study time easily.</br></br><b>2. Link List</b></br> With the Link List feature, you can add and store links to online resources or study materials. When you're ready to start studying, Study Buddy can open all the web pages of the links you've added, saving you time and effort.</br></br><b>3. Date Counter</b></br>- The Date Counter feature enables you to set and track important dates. You can choose between two types: 'future' and 'ongoing' depending on your needs. This feature helps you count down to future events or keep track of ongoing milestones.</br></br><b>4. Goals</b></br> Setting and achieving goals is an important part of any study routine. With the Goals feature, you can create daily or long-term study goals. Mark your goals as completed when you achieve them and stay motivated throughout your learning journey.<img loading='lazy' id='detail-img' src='../images/STBD.png'/></div>"
     }
 }
 
